@@ -51,3 +51,13 @@
  For the final step, I would like you to submit a pull request.  Remember, a pull request is telling me that your code is ready for review and that you believe your code is ready for deployment (i.e. the final version).  Only at this point will I review your code and give you feedback.
  
  */
+
+class Receipt {
+    
+    var ID: Int
+    var prdouctName: String
+    var productPrice: Double
+    var isPaid: Bool
+    
+    
+}
