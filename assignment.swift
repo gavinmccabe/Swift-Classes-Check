@@ -52,12 +52,11 @@
  
  */
 
-class Receipt {
+struct Receipt {
     
     var ID: Int
     var prdouctName: String
     var productPrice: Double
     var isPaid: Bool
-    
     
 }
