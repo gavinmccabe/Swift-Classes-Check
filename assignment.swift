@@ -29,8 +29,16 @@ struct Receipt {
     // TODO: Write the method here!
     func Remaining(balance: Double) -> Double {
         
-        return balance - productPrice
+        if productPrice > balance {
+            
+            return balance
+        }
         
+        else {
+            
+            
+            return balance - productPrice
+        }
         
     }
     
@@ -43,7 +51,8 @@ struct Receipt {
     // TODO: Write the method here!
     func Discount(discount: Int) -> Double { // if i were you i would make the discount 100% lol ;)
         
-        return productPrice * (1 - discount)
+        productPrice = productPrice * (1 - (discount/100))
+        return productPrice
         
     }
     
