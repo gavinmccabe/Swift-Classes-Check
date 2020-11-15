@@ -3,7 +3,7 @@
  # Mini Project 1
  
   Today, you'll be creating a `Vehicle` `struct`.  The `struct` should store information on the
-   vehicle's make, model, color, gas milage, type (truck, sudan, etc.), and current fuel level.
+   vehicle's make, model, color, gas milage, type (truck, sudan, etc.), total capacity of the tank, and current fuel level.
  
   The `struct` should include methods that:
  
@@ -26,9 +26,35 @@ struct Vehicle {
     var color: String
     var gasMileage: Double
     var type: String
+    var capacity: Double
     var currentFuelLevel: Double
     
+    mutating func fillTankUp() {
+        
+        currentFuelLevel = capacity
+        
+        
+    }
     
+    mutating func drive(miles: Double) -> Double {
+        
+        var gallonsNeeded = miles/gasMileage
+        if gallonsNeeded > currentFuelLevel {
+            
+            print("Not enough fuel!")
+            return currentFuelLevel
+            
+        }
+        else {
+            
+            print("Sure")
+            currentFuelLevel = currentFuelLevel - gallonsNeeded
+            return currentFuelLevel
+        }
+        
+        
+        
+    }
     
     
     
