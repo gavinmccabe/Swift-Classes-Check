@@ -27,7 +27,7 @@ struct Receipt {
     /// - Returns: The remaining balance after paying the receipt.
     
     // TODO: Write the method here!
-    func Remaining(balance: Double) -> Double {
+    mutating func Remaining(balance: Double) -> Double {
         
         if productPrice > balance {
             
@@ -36,7 +36,7 @@ struct Receipt {
         
         else {
             
-            
+            isPaid = true
             return balance - productPrice
         }
         
@@ -53,8 +53,7 @@ struct Receipt {
         
         productPrice = productPrice * (1 - (discount/100))
         return productPrice
-        Receipt.isPaid = True
-        
+
     }
     
     
