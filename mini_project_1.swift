@@ -18,3 +18,18 @@
     - Proper code style
  
  */
+
+struct Vehicle {
+    
+    var make: String
+    var model: String
+    var color: String
+    var gasMileage: Double
+    var type: String
+    var currentFuelLevel: Double
+    
+    
+    
+    
+    
+}
