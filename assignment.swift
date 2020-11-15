@@ -49,10 +49,11 @@ struct Receipt {
     /// - Returns: The product price after the sale.
      
     // TODO: Write the method here!
-    func Discount(discount: Int) -> Double { // if i were you i would make the discount 100% lol ;)
+    mutating func Discount(discount: Int) -> Double { // if i were you i would make the discount 100% lol ;)
         
         productPrice = productPrice * (1 - (discount/100))
         return productPrice
+        Receipt.isPaid = True
         
     }
     
