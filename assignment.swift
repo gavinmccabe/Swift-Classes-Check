@@ -27,6 +27,20 @@ struct Receipt {
     /// - Returns: The remaining balance after paying the receipt.
     
     // TODO: Write the method here!
+    mutating func Remaining(balance: Double) -> Double {
+        
+        if productPrice > balance {
+            
+            return balance
+        }
+        
+        else {
+            
+            isPaid = true
+            return balance - productPrice
+        }
+        
+    }
     
     
     /// Starts a sale on the product listed in the receipt.  Changes the product's price to reflect the sale.
@@ -34,7 +48,14 @@ struct Receipt {
     /// represent a discount of 10%.
     /// - Returns: The product price after the sale.
      
-    // TODO: Write the method here
+    // TODO: Write the method here!
+    mutating func Discount(discount: Int) -> Double { // if i were you i would make the discount 100% lol ;)
+        
+        productPrice = productPrice * (1 - (discount/100))
+        return productPrice
+
+    }
+    
     
     
     
