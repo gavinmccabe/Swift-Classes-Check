@@ -3,4 +3,4 @@
 Why are you even here?  This is practice for Jminding.
 
 ```swift
-import 
+print("HI NOW LEAVE")```
