@@ -56,4 +56,12 @@ struct Vehicle {
             return currentFuelLevel
         }
     }
+    
+    /// Plays a song
+    /// - Parameter song: A song for the car to play
+    func playingSong(song: String) {
+        
+        print("Playing song \(song)!")
+        
+    }
 }
