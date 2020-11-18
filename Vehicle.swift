@@ -11,4 +11,19 @@
  */
 
 
+struct Vehicle {
+    
+    
+    var make: String
+    var model: String
+    var color: String
+    var type: String
+    var numDoors: Int
+    
+    
+    
+    
+}
+
+
 
