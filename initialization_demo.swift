@@ -72,7 +72,7 @@ var personTwo2: PersonTwo = PersonTwo(name: "Gavin", age: 19, job: "Student")
  
  */
 
-var PersonTwo3: PersonTwo = PersonTwo(name: "Gavin", age: 19, job: "TA")
+var PersonTwo3: PersonTwo = PersonTwo(name: "Gavin", age: 19, job: "Programmer")
 
 /**
  
@@ -147,7 +147,7 @@ struct PersonFour {
     var name: String
     var age: Int
     var job: String
-    var userID: Int
+    var userID: UUID
     
     init(name: String, age: Int, job: String) {
         
@@ -210,6 +210,7 @@ struct Celsius {
     init(_ celsius: Double) {
         temperatureInCelsius = celsius
     }
+    
 }
 
 /**
