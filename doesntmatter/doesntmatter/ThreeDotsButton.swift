@@ -32,7 +32,7 @@ struct ThreeDotsButton: View {
                     .foregroundColor(Color(#colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)))
                 Spacer()
                 
-            }.frame(width: 5, height: 20)
+            }.frame(width: 20, height: 20)
             
         }
         
