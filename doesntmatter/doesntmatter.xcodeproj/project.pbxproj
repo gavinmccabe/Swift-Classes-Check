@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F30AE74625743A2F00DAE012 /* ToggleTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE74525743A2F00DAE012 /* ToggleTile.swift */; };
+		F30AE74B25743C7C00DAE012 /* ToggleTileToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE74A25743C7C00DAE012 /* ToggleTileToggled.swift */; };
+		F30AE74E257442BC00DAE012 /* ToggleTileNotToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE74D257442BC00DAE012 /* ToggleTileNotToggled.swift */; };
 		F3A94DC92574379700F9D05D /* doesntmatterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A94DC82574379700F9D05D /* doesntmatterApp.swift */; };
 		F3A94DCB2574379700F9D05D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A94DCA2574379700F9D05D /* ContentView.swift */; };
 		F3A94DCD2574379B00F9D05D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A94DCC2574379B00F9D05D /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F30AE74525743A2F00DAE012 /* ToggleTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTile.swift; sourceTree = "<group>"; };
+		F30AE74A25743C7C00DAE012 /* ToggleTileToggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTileToggled.swift; sourceTree = "<group>"; };
+		F30AE74D257442BC00DAE012 /* ToggleTileNotToggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTileNotToggled.swift; sourceTree = "<group>"; };
 		F3A94DC52574379700F9D05D /* doesntmatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doesntmatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A94DC82574379700F9D05D /* doesntmatterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doesntmatterApp.swift; sourceTree = "<group>"; };
 		F3A94DCA2574379700F9D05D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +60,9 @@
 			children = (
 				F3A94DC82574379700F9D05D /* doesntmatterApp.swift */,
 				F3A94DCA2574379700F9D05D /* ContentView.swift */,
+				F30AE74525743A2F00DAE012 /* ToggleTile.swift */,
+				F30AE74A25743C7C00DAE012 /* ToggleTileToggled.swift */,
+				F30AE74D257442BC00DAE012 /* ToggleTileNotToggled.swift */,
 				F3A94DCC2574379B00F9D05D /* Assets.xcassets */,
 				F3A94DD12574379B00F9D05D /* Info.plist */,
 				F3A94DCE2574379B00F9D05D /* Preview Content */,
@@ -138,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F30AE74B25743C7C00DAE012 /* ToggleTileToggled.swift in Sources */,
+				F30AE74E257442BC00DAE012 /* ToggleTileNotToggled.swift in Sources */,
+				F30AE74625743A2F00DAE012 /* ToggleTile.swift in Sources */,
 				F3A94DCB2574379700F9D05D /* ContentView.swift in Sources */,
 				F3A94DC92574379700F9D05D /* doesntmatterApp.swift in Sources */,
 			);
