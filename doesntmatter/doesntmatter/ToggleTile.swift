@@ -8,13 +8,33 @@
 import SwiftUI
 
 struct ToggleTile: View {
+    @State var isSelected = false
+    @State var image: String
+    @State var text: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    
+        Button(action: toggleBtnPressed) {
+            
+            if isSelected {
+                
+                ToggleTileToggled(text: text, image: image)
+                
+            } else {
+                
+                ToggleTileNotToggled(text: text, image: image)
+                
+            }
+            
+        }
+        
+    }
+    func toggleBtnPressed() {
+        isSelected.toggle()
     }
 }
 
 struct ToggleTile_Previews: PreviewProvider {
     static var previews: some View {
-        ToggleTile()
+        ToggleTile(image: "archivebox", text: "ahaha")
     }
 }
