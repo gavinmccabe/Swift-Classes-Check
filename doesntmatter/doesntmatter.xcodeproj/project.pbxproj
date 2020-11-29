@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86A56DA325744AED0095E257 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A56DA225744AED0095E257 /* SearchBar.swift */; };
 		F30AE74625743A2F00DAE012 /* ToggleTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE74525743A2F00DAE012 /* ToggleTile.swift */; };
 		F30AE74B25743C7C00DAE012 /* ToggleTileToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE74A25743C7C00DAE012 /* ToggleTileToggled.swift */; };
 		F30AE74E257442BC00DAE012 /* ToggleTileNotToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE74D257442BC00DAE012 /* ToggleTileNotToggled.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86A56DA225744AED0095E257 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		F30AE74525743A2F00DAE012 /* ToggleTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTile.swift; sourceTree = "<group>"; };
 		F30AE74A25743C7C00DAE012 /* ToggleTileToggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTileToggled.swift; sourceTree = "<group>"; };
 		F30AE74D257442BC00DAE012 /* ToggleTileNotToggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTileNotToggled.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				F3A94DC82574379700F9D05D /* doesntmatterApp.swift */,
 				F3A94DCA2574379700F9D05D /* ContentView.swift */,
+				86A56DA225744AED0095E257 /* SearchBar.swift */,
 				F30AE74525743A2F00DAE012 /* ToggleTile.swift */,
 				F30AE74A25743C7C00DAE012 /* ToggleTileToggled.swift */,
 				F30AE74D257442BC00DAE012 /* ToggleTileNotToggled.swift */,
@@ -152,6 +155,7 @@
 				F30AE74625743A2F00DAE012 /* ToggleTile.swift in Sources */,
 				F3A94DCB2574379700F9D05D /* ContentView.swift in Sources */,
 				F3A94DC92574379700F9D05D /* doesntmatterApp.swift in Sources */,
+				86A56DA325744AED0095E257 /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
