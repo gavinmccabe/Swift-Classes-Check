@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F30AE75225744C5A00DAE012 /* ProjectTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE75125744C5A00DAE012 /* ProjectTile.swift */; };
+		F30AE7582574571B00DAE012 /* ProjectTileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7572574571B00DAE012 /* ProjectTileButton.swift */; };
+		F30AE75C2574581600DAE012 /* ProjectTileTogether.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE75B2574581600DAE012 /* ProjectTileTogether.swift */; };
 		F3A94DC92574379700F9D05D /* doesntmatterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A94DC82574379700F9D05D /* doesntmatterApp.swift */; };
 		F3A94DCB2574379700F9D05D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A94DCA2574379700F9D05D /* ContentView.swift */; };
 		F3A94DCD2574379B00F9D05D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A94DCC2574379B00F9D05D /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F30AE75125744C5A00DAE012 /* ProjectTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTile.swift; sourceTree = "<group>"; };
+		F30AE7572574571B00DAE012 /* ProjectTileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTileButton.swift; sourceTree = "<group>"; };
+		F30AE75B2574581600DAE012 /* ProjectTileTogether.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTileTogether.swift; sourceTree = "<group>"; };
 		F3A94DC52574379700F9D05D /* doesntmatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doesntmatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3A94DC82574379700F9D05D /* doesntmatterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doesntmatterApp.swift; sourceTree = "<group>"; };
 		F3A94DCA2574379700F9D05D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +60,9 @@
 			children = (
 				F3A94DC82574379700F9D05D /* doesntmatterApp.swift */,
 				F3A94DCA2574379700F9D05D /* ContentView.swift */,
+				F30AE75125744C5A00DAE012 /* ProjectTile.swift */,
+				F30AE7572574571B00DAE012 /* ProjectTileButton.swift */,
+				F30AE75B2574581600DAE012 /* ProjectTileTogether.swift */,
 				F3A94DCC2574379B00F9D05D /* Assets.xcassets */,
 				F3A94DD12574379B00F9D05D /* Info.plist */,
 				F3A94DCE2574379B00F9D05D /* Preview Content */,
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F30AE7582574571B00DAE012 /* ProjectTileButton.swift in Sources */,
 				F3A94DCB2574379700F9D05D /* ContentView.swift in Sources */,
+				F30AE75C2574581600DAE012 /* ProjectTileTogether.swift in Sources */,
+				F30AE75225744C5A00DAE012 /* ProjectTile.swift in Sources */,
 				F3A94DC92574379700F9D05D /* doesntmatterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
