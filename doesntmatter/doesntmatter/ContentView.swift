@@ -8,9 +8,61 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var searchBarTxt: String = ""
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        
+        ZStack {
+            
+            Color(#colorLiteral(red: 0.968627451, green: 0.968627451, blue: 0.968627451, alpha: 1)).ignoresSafeArea()
+            
+            VStack {
+                
+                TopNavBar()
+                
+                Spacer().frame(height: 25)
+                
+                SearchBar(text: $searchBarTxt)
+                
+                Spacer()
+                
+                HStack {
+                    
+                    CategoryHeader("Categories")
+                    
+                    Spacer()
+                    
+                    CategoryButton()
+                    
+                }
+                
+                CategoryView()
+                
+                Spacer()
+                
+                HStack{
+                    
+                    CategoryHeader("Projects")
+                
+                    Spacer()
+                
+                }
+                
+                Spacer()
+                
+                
+                
+            }
+            
+            
+            
+            
+            
+        }
+        
+        
     }
 }
 
