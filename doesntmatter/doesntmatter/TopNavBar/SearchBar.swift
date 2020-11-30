@@ -24,6 +24,7 @@ struct SearchBar: View {
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 20, height: 20)
                     .foregroundColor(Color(#colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)))
+                    .padding(.leading)
                     
                 TextField("Search", text: $text)
                     .font(.custom("HelveticaNeue", size: 15))
@@ -36,7 +37,7 @@ struct SearchBar: View {
                 
             }
             
-        }.frame(width: 300, height: 50)
+        }.frame(width: 350, height: 50)
         
     }
 }

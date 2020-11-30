@@ -20,23 +20,9 @@ struct ContentView: View {
             
             VStack {
                 
-                HStack {
-                    
-                    BackButton(action: {print("Going back!")})
-                    
-                    Spacer()
-                    
-                    Text("Home")
-                        .font(.custom("HelveticaNeue", size: 18))
-                        .foregroundColor(Color(#colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)))
-                    
-                    Spacer()
-                    
-                    ThreeDotsButton(action: {print("Opening menu!")})
-                    
-                }.frame(width: 400, height: 30)
+                TopNavBar()
                 
-                Spacer()
+                Spacer().frame(height: 25)
                 
                 SearchBar(text: $searchBarTxt)
                 
