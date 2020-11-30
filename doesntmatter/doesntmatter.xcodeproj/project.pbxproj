@@ -12,6 +12,7 @@
 		86A56DA925744EBC0095E257 /* ThreeDotsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A56DA825744EBC0095E257 /* ThreeDotsButton.swift */; };
 		86A56DAC257471180095E257 /* TopNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A56DAB257471180095E257 /* TopNavBar.swift */; };
 		86A56DB1257472760095E257 /* CategoryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A56DB0257472760095E257 /* CategoryHeader.swift */; };
+		86A56DBA257475640095E257 /* CategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A56DB9257475640095E257 /* CategoryButton.swift */; };
 		F30AE74625743A2F00DAE012 /* ToggleTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE74525743A2F00DAE012 /* ToggleTile.swift */; };
 		F30AE74B25743C7C00DAE012 /* ToggleTileToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE74A25743C7C00DAE012 /* ToggleTileToggled.swift */; };
 		F30AE74E257442BC00DAE012 /* ToggleTileNotToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE74D257442BC00DAE012 /* ToggleTileNotToggled.swift */; };
@@ -27,6 +28,7 @@
 		86A56DA825744EBC0095E257 /* ThreeDotsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDotsButton.swift; sourceTree = "<group>"; };
 		86A56DAB257471180095E257 /* TopNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavBar.swift; sourceTree = "<group>"; };
 		86A56DB0257472760095E257 /* CategoryHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHeader.swift; sourceTree = "<group>"; };
+		86A56DB9257475640095E257 /* CategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryButton.swift; sourceTree = "<group>"; };
 		F30AE74525743A2F00DAE012 /* ToggleTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTile.swift; sourceTree = "<group>"; };
 		F30AE74A25743C7C00DAE012 /* ToggleTileToggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTileToggled.swift; sourceTree = "<group>"; };
 		F30AE74D257442BC00DAE012 /* ToggleTileNotToggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTileNotToggled.swift; sourceTree = "<group>"; };
@@ -60,6 +62,25 @@
 			path = TopNavBar;
 			sourceTree = "<group>";
 		};
+		86A56DB42574738A0095E257 /* ToggleTile */ = {
+			isa = PBXGroup;
+			children = (
+				F30AE74525743A2F00DAE012 /* ToggleTile.swift */,
+				F30AE74A25743C7C00DAE012 /* ToggleTileToggled.swift */,
+				F30AE74D257442BC00DAE012 /* ToggleTileNotToggled.swift */,
+			);
+			path = ToggleTile;
+			sourceTree = "<group>";
+		};
+		86A56DB7257475560095E257 /* CategoryHeader */ = {
+			isa = PBXGroup;
+			children = (
+				86A56DB0257472760095E257 /* CategoryHeader.swift */,
+				86A56DB9257475640095E257 /* CategoryButton.swift */,
+			);
+			path = CategoryHeader;
+			sourceTree = "<group>";
+		};
 		F3A94DBC2574379700F9D05D = {
 			isa = PBXGroup;
 			children = (
@@ -81,11 +102,9 @@
 			children = (
 				F3A94DC82574379700F9D05D /* doesntmatterApp.swift */,
 				F3A94DCA2574379700F9D05D /* ContentView.swift */,
-				86A56DB0257472760095E257 /* CategoryHeader.swift */,
+				86A56DB7257475560095E257 /* CategoryHeader */,
 				86A56DAE257471400095E257 /* TopNavBar */,
-				F30AE74525743A2F00DAE012 /* ToggleTile.swift */,
-				F30AE74A25743C7C00DAE012 /* ToggleTileToggled.swift */,
-				F30AE74D257442BC00DAE012 /* ToggleTileNotToggled.swift */,
+				86A56DB42574738A0095E257 /* ToggleTile */,
 				F3A94DCC2574379B00F9D05D /* Assets.xcassets */,
 				F3A94DD12574379B00F9D05D /* Info.plist */,
 				F3A94DCE2574379B00F9D05D /* Preview Content */,
@@ -178,6 +197,7 @@
 				F3A94DCB2574379700F9D05D /* ContentView.swift in Sources */,
 				F3A94DC92574379700F9D05D /* doesntmatterApp.swift in Sources */,
 				86A56DA625744D9C0095E257 /* BackButton.swift in Sources */,
+				86A56DBA257475640095E257 /* CategoryButton.swift in Sources */,
 				86A56DA925744EBC0095E257 /* ThreeDotsButton.swift in Sources */,
 				86A56DA325744AED0095E257 /* SearchBar.swift in Sources */,
 			);

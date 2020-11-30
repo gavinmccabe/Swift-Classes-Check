@@ -28,6 +28,18 @@ struct ContentView: View {
                 
                 Spacer()
                 
+                HStack {
+                    
+                    CategoryHeader("Categories")
+                    
+                    Spacer()
+                    
+                    CategoryButton()
+                    
+                }
+                
+                Spacer()
+                
             }
             
             
