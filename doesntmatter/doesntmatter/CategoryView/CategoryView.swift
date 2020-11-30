@@ -9,7 +9,23 @@ import SwiftUI
 
 struct CategoryView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            
+            Spacer()
+            
+            ToggleTile(image: "square.grid.2x2", text: "Apps")
+            
+            Spacer()
+            
+            ToggleTile(image: "archivebox", text: "Archive")
+            
+            Spacer()
+            
+            ToggleTile(image: "bolt", text: "Trends")
+            
+            Spacer()
+            
+        }
     }
 }
 
