@@ -38,7 +38,21 @@ struct ContentView: View {
                     
                 }
                 
+                CategoryView()
+                
                 Spacer()
+                
+                HStack{
+                    
+                    CategoryHeader("Projects")
+                
+                    Spacer()
+                
+                }
+                
+                Spacer()
+                
+                
                 
             }
             
