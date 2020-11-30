@@ -8,13 +8,26 @@
 import SwiftUI
 
 struct ProjectTileButton: View {
+    @State var text: String
+    @State var firstDesc: String
+    @State var secondDesc: String
+    @State var thirdDesc: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: ProjectTileBtnPressed){
+            
+            ProjectTile(text: text, firstDesc: firstDesc, secondDesc: secondDesc, thirdDesc: thirdDesc)
+            
+        }
+    }
+    func ProjectTileBtnPressed() {
+        
+        print("Project Tile Btn Pressed!")
+        
     }
 }
 
 struct ProjectTileButton_Previews: PreviewProvider {
     static var previews: some View {
-        ProjectTileButton()
+        ProjectTileButton(text: "Method", firstDesc: "Method", secondDesc: "Web", thirdDesc: "Sketch")
     }
 }

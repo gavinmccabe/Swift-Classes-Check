@@ -9,7 +9,13 @@ import SwiftUI
 
 struct ProjectTileTogether: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(){
+            
+            ProjectTileButton(text: "Method", firstDesc: "Method", secondDesc: "Web", thirdDesc: "Sketch")
+            ProjectTileButton(text: "Boost", firstDesc: "UI Kit", secondDesc: "Material", thirdDesc: "Figma")
+            ProjectTileButton(text: "Silvercell", firstDesc: "Design System", secondDesc: "iOS", thirdDesc: "Mobile")
+            
+        }
     }
 }
 
