@@ -13,6 +13,8 @@
 		8627686F2574980300A5DE22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8627686E2574980300A5DE22 /* Preview Assets.xcassets */; };
 		F30AE78725758E3C00DAE012 /* CleanerTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE78625758E3C00DAE012 /* CleanerTile.swift */; };
 		F30AE78A25758E4A00DAE012 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE78925758E4A00DAE012 /* MapView.swift */; };
+		F30AE78D257590BC00DAE012 /* YourCleanerTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE78C257590BC00DAE012 /* YourCleanerTile.swift */; };
+		F30AE7902575916400DAE012 /* CleanerTileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE78F2575916400DAE012 /* CleanerTileButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		862768702574980300A5DE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F30AE78625758E3C00DAE012 /* CleanerTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerTile.swift; sourceTree = "<group>"; };
 		F30AE78925758E4A00DAE012 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		F30AE78C257590BC00DAE012 /* YourCleanerTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourCleanerTile.swift; sourceTree = "<group>"; };
+		F30AE78F2575916400DAE012 /* CleanerTileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerTileButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				862768672574980300A5DE22 /* WireframesApp.swift */,
 				862768692574980300A5DE22 /* ContentView.swift */,
 				F30AE78625758E3C00DAE012 /* CleanerTile.swift */,
+				F30AE78F2575916400DAE012 /* CleanerTileButton.swift */,
+				F30AE78C257590BC00DAE012 /* YourCleanerTile.swift */,
 				F30AE78925758E4A00DAE012 /* MapView.swift */,
 				8627686B2574980300A5DE22 /* Assets.xcassets */,
 				862768702574980300A5DE22 /* Info.plist */,
@@ -144,7 +150,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F30AE78D257590BC00DAE012 /* YourCleanerTile.swift in Sources */,
 				8627686A2574980300A5DE22 /* ContentView.swift in Sources */,
+				F30AE7902575916400DAE012 /* CleanerTileButton.swift in Sources */,
 				F30AE78A25758E4A00DAE012 /* MapView.swift in Sources */,
 				F30AE78725758E3C00DAE012 /* CleanerTile.swift in Sources */,
 				862768682574980300A5DE22 /* WireframesApp.swift in Sources */,
