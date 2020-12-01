@@ -9,7 +9,8 @@ import SwiftUI
 
 struct WalletButtonUntoggled: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(systemName: "dollarsign.square")
+            .foregroundColor(Color(#colorLiteral(red: 0.8705882353, green: 0.8784313725, blue: 0.9019607843, alpha: 1)))
     }
 }
 

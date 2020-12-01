@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct WalletButton: View {
+    @State var toggled = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: walletBtnToggle){
+            
+            if toggled {
+                WalletButtonToggled()
+            } else {
+               WalletButtonUntoggled()
+            }
+            
+        }
+    }
+    func walletBtnToggle() {
+        
+        toggled.toggle()
+        
     }
 }
 

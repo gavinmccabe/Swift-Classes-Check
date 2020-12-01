@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct SettingsButton: View {
+    @State var toggled = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: settingsBtnToggle){
+            
+            if toggled {
+                SettingsButtonToggled()
+            } else {
+               SettingsButtonUntoggled()
+            }
+            
+        }
+    }
+    func settingsBtnToggle() {
+        
+        toggled.toggle()
+        
     }
 }
 
