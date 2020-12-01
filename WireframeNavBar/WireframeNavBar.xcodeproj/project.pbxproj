@@ -20,6 +20,9 @@
 		F30AE7CD2575DFE100DAE012 /* SettingsButtonUntoggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7CC2575DFE000DAE012 /* SettingsButtonUntoggled.swift */; };
 		F30AE7D12575DFF800DAE012 /* SettingsButtonToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7D02575DFF800DAE012 /* SettingsButtonToggled.swift */; };
 		F30AE7D52575E00800DAE012 /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7D42575E00800DAE012 /* SettingsButton.swift */; };
+		F30AE7DB2575E0E500DAE012 /* WalletButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7DA2575E0E500DAE012 /* WalletButton.swift */; };
+		F30AE7DE2575E0E900DAE012 /* WalletButtonToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7DD2575E0E900DAE012 /* WalletButtonToggled.swift */; };
+		F30AE7E22575E10500DAE012 /* WalletButtonUntoggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7E12575E10500DAE012 /* WalletButtonUntoggled.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		F30AE7CC2575DFE000DAE012 /* SettingsButtonUntoggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButtonUntoggled.swift; sourceTree = "<group>"; };
 		F30AE7D02575DFF800DAE012 /* SettingsButtonToggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButtonToggled.swift; sourceTree = "<group>"; };
 		F30AE7D42575E00800DAE012 /* SettingsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
+		F30AE7DA2575E0E500DAE012 /* WalletButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletButton.swift; sourceTree = "<group>"; };
+		F30AE7DD2575E0E900DAE012 /* WalletButtonToggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletButtonToggled.swift; sourceTree = "<group>"; };
+		F30AE7E12575E10500DAE012 /* WalletButtonUntoggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletButtonUntoggled.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,7 @@
 			children = (
 				F30AE7A32575CD2000DAE012 /* WireframeNavBarApp.swift */,
 				F30AE7A52575CD2000DAE012 /* ContentView.swift */,
+				F30AE7E42575E10900DAE012 /* Wallet Button */,
 				F30AE7D72575E00F00DAE012 /* Settings Button */,
 				F30AE7CA2575D3E100DAE012 /* Order Buttons */,
 				F30AE7BD2575D1D100DAE012 /* Home Button */,
@@ -118,6 +125,16 @@
 				F30AE7CC2575DFE000DAE012 /* SettingsButtonUntoggled.swift */,
 			);
 			path = "Settings Button";
+			sourceTree = "<group>";
+		};
+		F30AE7E42575E10900DAE012 /* Wallet Button */ = {
+			isa = PBXGroup;
+			children = (
+				F30AE7DA2575E0E500DAE012 /* WalletButton.swift */,
+				F30AE7DD2575E0E900DAE012 /* WalletButtonToggled.swift */,
+				F30AE7E12575E10500DAE012 /* WalletButtonUntoggled.swift */,
+			);
+			path = "Wallet Button";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,12 +206,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F30AE7DE2575E0E900DAE012 /* WalletButtonToggled.swift in Sources */,
 				F30AE7C22575D39300DAE012 /* OrdersButtonUntoggled.swift in Sources */,
 				F30AE7C52575D39C00DAE012 /* OrdersButtonToggled.swift in Sources */,
 				F30AE7CD2575DFE100DAE012 /* SettingsButtonUntoggled.swift in Sources */,
 				F30AE7A62575CD2000DAE012 /* ContentView.swift in Sources */,
 				F30AE7B82575CFE700DAE012 /* HomeButtonToggled.swift in Sources */,
 				F30AE7C82575D3A100DAE012 /* OrderButton.swift in Sources */,
+				F30AE7DB2575E0E500DAE012 /* WalletButton.swift in Sources */,
+				F30AE7E22575E10500DAE012 /* WalletButtonUntoggled.swift in Sources */,
 				F30AE7B42575CD4800DAE012 /* HomeButtonUntoggled.swift in Sources */,
 				F30AE7D12575DFF800DAE012 /* SettingsButtonToggled.swift in Sources */,
 				F30AE7BB2575D14D00DAE012 /* HomeButton.swift in Sources */,
