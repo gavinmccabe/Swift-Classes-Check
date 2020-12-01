@@ -14,6 +14,9 @@
 		F30AE7B42575CD4800DAE012 /* HomeButtonUntoggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7B32575CD4800DAE012 /* HomeButtonUntoggled.swift */; };
 		F30AE7B82575CFE700DAE012 /* HomeButtonToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7B72575CFE700DAE012 /* HomeButtonToggled.swift */; };
 		F30AE7BB2575D14D00DAE012 /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7BA2575D14D00DAE012 /* HomeButton.swift */; };
+		F30AE7C22575D39300DAE012 /* OrdersButtonUntoggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7C12575D39300DAE012 /* OrdersButtonUntoggled.swift */; };
+		F30AE7C52575D39C00DAE012 /* OrdersButtonToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7C42575D39C00DAE012 /* OrdersButtonToggled.swift */; };
+		F30AE7C82575D3A100DAE012 /* OrderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7C72575D3A100DAE012 /* OrderButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		F30AE7B32575CD4800DAE012 /* HomeButtonUntoggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonUntoggled.swift; sourceTree = "<group>"; };
 		F30AE7B72575CFE700DAE012 /* HomeButtonToggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonToggled.swift; sourceTree = "<group>"; };
 		F30AE7BA2575D14D00DAE012 /* HomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
+		F30AE7C12575D39300DAE012 /* OrdersButtonUntoggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersButtonUntoggled.swift; sourceTree = "<group>"; };
+		F30AE7C42575D39C00DAE012 /* OrdersButtonToggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersButtonToggled.swift; sourceTree = "<group>"; };
+		F30AE7C72575D3A100DAE012 /* OrderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		F30AE7A22575CD2000DAE012 /* WireframeNavBar */ = {
 			isa = PBXGroup;
 			children = (
+				F30AE7CA2575D3E100DAE012 /* Order Buttons */,
 				F30AE7A32575CD2000DAE012 /* WireframeNavBarApp.swift */,
 				F30AE7A52575CD2000DAE012 /* ContentView.swift */,
 				F30AE7BD2575D1D100DAE012 /* Home Button */,
@@ -79,11 +86,21 @@
 		F30AE7BD2575D1D100DAE012 /* Home Button */ = {
 			isa = PBXGroup;
 			children = (
+				F30AE7BA2575D14D00DAE012 /* HomeButton.swift */,
 				F30AE7B32575CD4800DAE012 /* HomeButtonUntoggled.swift */,
 				F30AE7B72575CFE700DAE012 /* HomeButtonToggled.swift */,
-				F30AE7BA2575D14D00DAE012 /* HomeButton.swift */,
 			);
 			path = "Home Button";
+			sourceTree = "<group>";
+		};
+		F30AE7CA2575D3E100DAE012 /* Order Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F30AE7C12575D39300DAE012 /* OrdersButtonUntoggled.swift */,
+				F30AE7C42575D39C00DAE012 /* OrdersButtonToggled.swift */,
+				F30AE7C72575D3A100DAE012 /* OrderButton.swift */,
+			);
+			path = "Order Buttons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F30AE7C22575D39300DAE012 /* OrdersButtonUntoggled.swift in Sources */,
+				F30AE7C52575D39C00DAE012 /* OrdersButtonToggled.swift in Sources */,
 				F30AE7A62575CD2000DAE012 /* ContentView.swift in Sources */,
 				F30AE7B82575CFE700DAE012 /* HomeButtonToggled.swift in Sources */,
+				F30AE7C82575D3A100DAE012 /* OrderButton.swift in Sources */,
 				F30AE7B42575CD4800DAE012 /* HomeButtonUntoggled.swift in Sources */,
 				F30AE7BB2575D14D00DAE012 /* HomeButton.swift in Sources */,
 				F30AE7A42575CD2000DAE012 /* WireframeNavBarApp.swift in Sources */,
