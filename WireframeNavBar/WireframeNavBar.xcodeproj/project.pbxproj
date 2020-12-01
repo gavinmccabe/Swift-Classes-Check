@@ -11,7 +11,9 @@
 		F30AE7A62575CD2000DAE012 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7A52575CD2000DAE012 /* ContentView.swift */; };
 		F30AE7A82575CD2200DAE012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30AE7A72575CD2200DAE012 /* Assets.xcassets */; };
 		F30AE7AB2575CD2200DAE012 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30AE7AA2575CD2200DAE012 /* Preview Assets.xcassets */; };
-		F30AE7B42575CD4800DAE012 /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7B32575CD4800DAE012 /* HomeButton.swift */; };
+		F30AE7B42575CD4800DAE012 /* HomeButtonUntoggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7B32575CD4800DAE012 /* HomeButtonUntoggled.swift */; };
+		F30AE7B82575CFE700DAE012 /* HomeButtonToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7B72575CFE700DAE012 /* HomeButtonToggled.swift */; };
+		F30AE7BB2575D14D00DAE012 /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7BA2575D14D00DAE012 /* HomeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +23,9 @@
 		F30AE7A72575CD2200DAE012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F30AE7AA2575CD2200DAE012 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F30AE7AC2575CD2200DAE012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F30AE7B32575CD4800DAE012 /* HomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
+		F30AE7B32575CD4800DAE012 /* HomeButtonUntoggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonUntoggled.swift; sourceTree = "<group>"; };
+		F30AE7B72575CFE700DAE012 /* HomeButtonToggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonToggled.swift; sourceTree = "<group>"; };
+		F30AE7BA2575D14D00DAE012 /* HomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,7 @@
 			children = (
 				F30AE7A32575CD2000DAE012 /* WireframeNavBarApp.swift */,
 				F30AE7A52575CD2000DAE012 /* ContentView.swift */,
-				F30AE7B32575CD4800DAE012 /* HomeButton.swift */,
+				F30AE7BD2575D1D100DAE012 /* Home Button */,
 				F30AE7A72575CD2200DAE012 /* Assets.xcassets */,
 				F30AE7AC2575CD2200DAE012 /* Info.plist */,
 				F30AE7A92575CD2200DAE012 /* Preview Content */,
@@ -70,6 +74,16 @@
 				F30AE7AA2575CD2200DAE012 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F30AE7BD2575D1D100DAE012 /* Home Button */ = {
+			isa = PBXGroup;
+			children = (
+				F30AE7B32575CD4800DAE012 /* HomeButtonUntoggled.swift */,
+				F30AE7B72575CFE700DAE012 /* HomeButtonToggled.swift */,
+				F30AE7BA2575D14D00DAE012 /* HomeButton.swift */,
+			);
+			path = "Home Button";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +156,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F30AE7A62575CD2000DAE012 /* ContentView.swift in Sources */,
-				F30AE7B42575CD4800DAE012 /* HomeButton.swift in Sources */,
+				F30AE7B82575CFE700DAE012 /* HomeButtonToggled.swift in Sources */,
+				F30AE7B42575CD4800DAE012 /* HomeButtonUntoggled.swift in Sources */,
+				F30AE7BB2575D14D00DAE012 /* HomeButton.swift in Sources */,
 				F30AE7A42575CD2000DAE012 /* WireframeNavBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
