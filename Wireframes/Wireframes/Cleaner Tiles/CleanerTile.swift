@@ -11,7 +11,8 @@ struct CleanerTile: View {
     var body: some View {
         ZStack(){
             
-            MapView()
+            Image("map_bg")
+                .resizable()
                 .cornerRadius(10)
             VStack(){
                 Spacer()
