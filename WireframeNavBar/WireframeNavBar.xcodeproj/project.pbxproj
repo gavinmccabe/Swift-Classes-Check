@@ -23,6 +23,8 @@
 		F30AE7DB2575E0E500DAE012 /* WalletButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7DA2575E0E500DAE012 /* WalletButton.swift */; };
 		F30AE7DE2575E0E900DAE012 /* WalletButtonToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7DD2575E0E900DAE012 /* WalletButtonToggled.swift */; };
 		F30AE7E22575E10500DAE012 /* WalletButtonUntoggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7E12575E10500DAE012 /* WalletButtonUntoggled.swift */; };
+		F30AE7E82575E54A00DAE012 /* PlusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7E72575E54A00DAE012 /* PlusButton.swift */; };
+		F30AE7EC2575E6E500DAE012 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE7EB2575E6E500DAE012 /* NavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		F30AE7DA2575E0E500DAE012 /* WalletButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletButton.swift; sourceTree = "<group>"; };
 		F30AE7DD2575E0E900DAE012 /* WalletButtonToggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletButtonToggled.swift; sourceTree = "<group>"; };
 		F30AE7E12575E10500DAE012 /* WalletButtonUntoggled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletButtonUntoggled.swift; sourceTree = "<group>"; };
+		F30AE7E72575E54A00DAE012 /* PlusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusButton.swift; sourceTree = "<group>"; };
+		F30AE7EB2575E6E500DAE012 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +82,8 @@
 			children = (
 				F30AE7A32575CD2000DAE012 /* WireframeNavBarApp.swift */,
 				F30AE7A52575CD2000DAE012 /* ContentView.swift */,
-				F30AE7E42575E10900DAE012 /* Wallet Button */,
-				F30AE7D72575E00F00DAE012 /* Settings Button */,
-				F30AE7CA2575D3E100DAE012 /* Order Buttons */,
-				F30AE7BD2575D1D100DAE012 /* Home Button */,
+				F30AE7EB2575E6E500DAE012 /* NavBar.swift */,
+				F30AE7EA2575E6B900DAE012 /* Buttons */,
 				F30AE7A72575CD2200DAE012 /* Assets.xcassets */,
 				F30AE7AC2575CD2200DAE012 /* Info.plist */,
 				F30AE7A92575CD2200DAE012 /* Preview Content */,
@@ -135,6 +137,18 @@
 				F30AE7E12575E10500DAE012 /* WalletButtonUntoggled.swift */,
 			);
 			path = "Wallet Button";
+			sourceTree = "<group>";
+		};
+		F30AE7EA2575E6B900DAE012 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F30AE7E72575E54A00DAE012 /* PlusButton.swift */,
+				F30AE7D72575E00F00DAE012 /* Settings Button */,
+				F30AE7BD2575D1D100DAE012 /* Home Button */,
+				F30AE7CA2575D3E100DAE012 /* Order Buttons */,
+				F30AE7E42575E10900DAE012 /* Wallet Button */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F30AE7DE2575E0E900DAE012 /* WalletButtonToggled.swift in Sources */,
+				F30AE7EC2575E6E500DAE012 /* NavBar.swift in Sources */,
 				F30AE7C22575D39300DAE012 /* OrdersButtonUntoggled.swift in Sources */,
 				F30AE7C52575D39C00DAE012 /* OrdersButtonToggled.swift in Sources */,
 				F30AE7CD2575DFE100DAE012 /* SettingsButtonUntoggled.swift in Sources */,
@@ -214,6 +229,7 @@
 				F30AE7B82575CFE700DAE012 /* HomeButtonToggled.swift in Sources */,
 				F30AE7C82575D3A100DAE012 /* OrderButton.swift in Sources */,
 				F30AE7DB2575E0E500DAE012 /* WalletButton.swift in Sources */,
+				F30AE7E82575E54A00DAE012 /* PlusButton.swift in Sources */,
 				F30AE7E22575E10500DAE012 /* WalletButtonUntoggled.swift in Sources */,
 				F30AE7B42575CD4800DAE012 /* HomeButtonUntoggled.swift in Sources */,
 				F30AE7D12575DFF800DAE012 /* SettingsButtonToggled.swift in Sources */,
