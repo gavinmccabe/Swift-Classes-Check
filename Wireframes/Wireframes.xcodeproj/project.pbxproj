@@ -14,11 +14,9 @@
 		861A15242575FAB100351416 /* CleanerTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A15232575FAB100351416 /* CleanerTile.swift */; };
 		861A15282575FAB800351416 /* CleanerTileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A15272575FAB800351416 /* CleanerTileButton.swift */; };
 		861A152B2575FAC500351416 /* CleanerTileText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A152A2575FAC500351416 /* CleanerTileText.swift */; };
-		86ABE7612576E60D008DE5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86ABE7602576E60D008DE5BF /* Assets.xcassets */; };
 		86ABE7652576E627008DE5BF /* PromotionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ABE7642576E627008DE5BF /* PromotionCard.swift */; };
 		86ABE7692576E758008DE5BF /* PromotionBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ABE7682576E758008DE5BF /* PromotionBadge.swift */; };
-		86ABE75D2576E5B5008DE5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86ABE75C2576E5B5008DE5BF /* Assets.xcassets */; };
-
+		86ABE7712576F393008DE5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86ABE7702576F393008DE5BF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +29,9 @@
 		861A15232575FAB100351416 /* CleanerTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerTile.swift; sourceTree = "<group>"; };
 		861A15272575FAB800351416 /* CleanerTileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerTileButton.swift; sourceTree = "<group>"; };
 		861A152A2575FAC500351416 /* CleanerTileText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerTileText.swift; sourceTree = "<group>"; };
-		86ABE7602576E60D008DE5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86ABE7642576E627008DE5BF /* PromotionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionCard.swift; sourceTree = "<group>"; };
 		86ABE7682576E758008DE5BF /* PromotionBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionBadge.swift; sourceTree = "<group>"; };
-		86ABE75C2576E5B5008DE5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-
+		86ABE7702576F393008DE5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +66,8 @@
 			children = (
 				861A15022575F97C00351416 /* WireframesApp.swift */,
 				861A15042575F97C00351416 /* ContentView.swift */,
-				86ABE7602576E60D008DE5BF /* Assets.xcassets */,
+				86ABE7702576F393008DE5BF /* Assets.xcassets */,
 				86ABE7632576E618008DE5BF /* PromotionCard */,
-				86ABE75C2576E5B5008DE5BF /* Assets.xcassets */,
 				861A15222575FA9E00351416 /* CleanerTiles */,
 				861A151D2575FA4D00351416 /* DottedSeperator */,
 				861A150B2575F97E00351416 /* Info.plist */,
@@ -173,8 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86ABE7612576E60D008DE5BF /* Assets.xcassets in Resources */,
-				86ABE75D2576E5B5008DE5BF /* Assets.xcassets in Resources */,
+				86ABE7712576F393008DE5BF /* Assets.xcassets in Resources */,
 				861A150A2575F97E00351416 /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
