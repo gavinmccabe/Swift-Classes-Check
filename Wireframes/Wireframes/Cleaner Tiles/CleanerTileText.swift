@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CleanerTile: View {
+struct CleanerTileText: View {
     @State var cleanerName: String
     @State var cleanerAddress: String
     var body: some View {
@@ -35,7 +35,7 @@ struct CleanerTile: View {
                     RoundedRectangle(cornerRadius: 10)
                         .foregroundColor(Color(#colorLiteral(red: 0.9647058824, green: 0.968627451, blue: 0.9764705882, alpha: 1)))
                         .frame(width: 30, height: 40)
-                    Text(">")
+                    Image(systemName: "chevron.forward")
                         .foregroundColor(Color(#colorLiteral(red: 0.6862745098, green: 0.7019607843, blue: 0.7803921569, alpha: 1)))
                     
                 }
@@ -44,8 +44,8 @@ struct CleanerTile: View {
     }
 }
 
-struct CleanerTile_Previews: PreviewProvider {
+struct CleanerTileText_Previews: PreviewProvider {
     static var previews: some View {
-        CleanerTile(cleanerName: "Cleaner's Name", cleanerAddress: "1169 11th street")
+        CleanerTileText(cleanerName: "Cleaner's Name", cleanerAddress: "1169 11th street")
     }
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct YourCleanerTile: View {
+struct CleanerTile: View {
     var body: some View {
         ZStack(){
             
@@ -24,8 +24,8 @@ struct YourCleanerTile: View {
     }
 }
 
-struct YourCleanerTile_Previews: PreviewProvider {
+struct CleanerTile_Previews: PreviewProvider {
     static var previews: some View {
-        YourCleanerTile()
+        CleanerTile()
     }
 }
