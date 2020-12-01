@@ -16,8 +16,6 @@ struct NavBar: View {
                     .foregroundColor(.white)
                     .frame(width: UIScreen.main.bounds.width, height: 50)
                 HStack(){
-                    
-                    Spacer()
                     HomeButton()
                     Spacer()
                     OrderButton()
@@ -26,9 +24,13 @@ struct NavBar: View {
                     Spacer()
                     WalletButton()
                     Spacer()
-                    PlusButton()
-                    Spacer()
-                    
+                    VStack(){
+                        
+                        PlusButton()
+                        Spacer()
+                            .frame(height: 10)
+                        
+                    }
                 }
             }
         }
