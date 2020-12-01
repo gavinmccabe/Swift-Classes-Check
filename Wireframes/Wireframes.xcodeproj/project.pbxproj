@@ -14,6 +14,8 @@
 		F30AE78725758E3C00DAE012 /* CleanerTileText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE78625758E3C00DAE012 /* CleanerTileText.swift */; };
 		F30AE78D257590BC00DAE012 /* CleanerTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE78C257590BC00DAE012 /* CleanerTile.swift */; };
 		F30AE7902575916400DAE012 /* CleanerTileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE78F2575916400DAE012 /* CleanerTileButton.swift */; };
+		868747512575D44400C37EBC /* DottedSeperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868747502575D44400C37EBC /* DottedSeperator.swift */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F30AE78625758E3C00DAE012 /* CleanerTileText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerTileText.swift; sourceTree = "<group>"; };
 		F30AE78C257590BC00DAE012 /* CleanerTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerTile.swift; sourceTree = "<group>"; };
 		F30AE78F2575916400DAE012 /* CleanerTileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerTileButton.swift; sourceTree = "<group>"; };
+		868747502575D44400C37EBC /* DottedSeperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottedSeperator.swift; sourceTree = "<group>"; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 				862768692574980300A5DE22 /* ContentView.swift */,
 				F30AE7942575CBC200DAE012 /* Cleaner Tiles */,
 				8627686B2574980300A5DE22 /* Assets.xcassets */,
+				8687474F2575D42D00C37EBC /* DottedSeperator */,
 				862768702574980300A5DE22 /* Info.plist */,
 				8627686D2574980300A5DE22 /* Preview Content */,
 			);
@@ -76,6 +81,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+
 		F30AE7942575CBC200DAE012 /* Cleaner Tiles */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +90,14 @@
 				F30AE78C257590BC00DAE012 /* CleanerTile.swift */,
 			);
 			path = "Cleaner Tiles";
+
+		8687474F2575D42D00C37EBC /* DottedSeperator */ = {
+			isa = PBXGroup;
+			children = (
+				868747502575D44400C37EBC /* DottedSeperator.swift */,
+			);
+			path = DottedSeperator;
+
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,7 +169,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
 				F30AE78D257590BC00DAE012 /* CleanerTile.swift in Sources */,
+				868747512575D44400C37EBC /* DottedSeperator.swift in Sources */,
 				8627686A2574980300A5DE22 /* ContentView.swift in Sources */,
 				F30AE7902575916400DAE012 /* CleanerTileButton.swift in Sources */,
 				F30AE78725758E3C00DAE012 /* CleanerTileText.swift in Sources */,
