@@ -13,7 +13,7 @@ struct CleanerTileButton: View {
     var body: some View {
         Button(action: cleanerTileBtnPressed){
             
-            CleanerTile(cleanerName: cleanerName, cleanerAddress: cleanerAddress)
+            CleanerTileText(cleanerName: cleanerName, cleanerAddress: cleanerAddress)
             
         }
     }
