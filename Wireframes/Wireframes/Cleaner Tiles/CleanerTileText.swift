@@ -16,23 +16,26 @@ struct CleanerTileText: View {
                 .foregroundColor(.white)
             HStack(){
                 VStack(){
+                    Spacer()
                     HStack(){
                         Spacer()
-                            .frame(width: 5)
+                            .frame(width: 10)
                         Text(cleanerName)
                             .foregroundColor(Color(#colorLiteral(red: 0.5803921569, green: 0.6156862745, blue: 0.6549019608, alpha: 1)))
                         Spacer()
                     }
-                    Spacer()
                     HStack(){
                         Spacer()
-                            .frame(width: 5)
+                            .frame(width: 10)
                         Text(cleanerAddress)
                             .foregroundColor(Color(#colorLiteral(red: 0.8196078431, green: 0.831372549, blue: 0.8431372549, alpha: 1)))
                             .font(.custom("HelveticaNeue", size: 10))
                         Spacer()
                     }
+                    Spacer()
+                        .frame(width: 5)
                 }
+                .frame(height: 50)
                 Spacer()
                 HStack(){
                     ZStack(){
@@ -54,6 +57,10 @@ struct CleanerTileText: View {
 
 struct CleanerTileText_Previews: PreviewProvider {
     static var previews: some View {
-        CleanerTileText(cleanerName: "Cleaner's Name", cleanerAddress: "1169 11th street")
+        ZStack {
+            Color(.black)
+            CleanerTileText(cleanerName: "Cleaner's Name", cleanerAddress: "1169 11th street")
+        }
+        
     }
 }
