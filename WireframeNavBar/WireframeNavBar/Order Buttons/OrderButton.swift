@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct OrderButton: View {
+    @State var toggled = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: orderBtnToggle){
+            
+            if toggled {
+                OrdersButtonToggled()
+            } else {
+               OrdersButtonUntoggled()
+            }
+            
+        }
+    }
+    func orderBtnToggle() {
+        
+        toggled.toggle()
+        
     }
 }
 
