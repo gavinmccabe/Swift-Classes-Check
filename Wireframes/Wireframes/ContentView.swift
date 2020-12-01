@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  doesntmatter
+//  Wireframes
 //
-//  Created by Jaymin Ding on 11/29/20.
+//  Created by Gavin on 11/29/20.
 //
 
 import SwiftUI
