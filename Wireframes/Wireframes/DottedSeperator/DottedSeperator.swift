@@ -1,5 +1,5 @@
 //
-//  Line.swift
+//  DottedSeperator.swift
 //  Wireframes
 //
 //  Created by Gavin on 11/30/20.

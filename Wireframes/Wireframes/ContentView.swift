@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Wireframes
 //
-//  Created by Gavin on 11/29/20.
+//  Created by Gavin on 11/30/20.
 //
 
 import SwiftUI
@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
-            .padding()
     }
 }
 
