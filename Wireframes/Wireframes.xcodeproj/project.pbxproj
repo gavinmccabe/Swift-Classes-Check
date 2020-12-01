@@ -15,6 +15,20 @@
 		F30AE78A25758E4A00DAE012 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE78925758E4A00DAE012 /* MapView.swift */; };
 		F30AE78D257590BC00DAE012 /* CleanerTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE78C257590BC00DAE012 /* CleanerTile.swift */; };
 		F30AE7902575916400DAE012 /* CleanerTileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AE78F2575916400DAE012 /* CleanerTileButton.swift */; };
+		F3553E372575EC040023BB96 /* OrderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E292575EC040023BB96 /* OrderButton.swift */; };
+		F3553E382575EC040023BB96 /* WalletButtonUntoggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E2A2575EC040023BB96 /* WalletButtonUntoggled.swift */; };
+		F3553E392575EC040023BB96 /* OrdersButtonToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E2B2575EC040023BB96 /* OrdersButtonToggled.swift */; };
+		F3553E3A2575EC040023BB96 /* SettingsButtonToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E2C2575EC040023BB96 /* SettingsButtonToggled.swift */; };
+		F3553E3B2575EC040023BB96 /* SettingsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E2D2575EC040023BB96 /* SettingsButton.swift */; };
+		F3553E3C2575EC040023BB96 /* HomeButtonUntoggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E2E2575EC040023BB96 /* HomeButtonUntoggled.swift */; };
+		F3553E3D2575EC040023BB96 /* WalletButtonToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E2F2575EC040023BB96 /* WalletButtonToggled.swift */; };
+		F3553E3E2575EC040023BB96 /* PlusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E302575EC040023BB96 /* PlusButton.swift */; };
+		F3553E3F2575EC040023BB96 /* SettingsButtonUntoggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E312575EC040023BB96 /* SettingsButtonUntoggled.swift */; };
+		F3553E402575EC040023BB96 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E322575EC040023BB96 /* NavBar.swift */; };
+		F3553E412575EC040023BB96 /* HomeButtonToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E332575EC040023BB96 /* HomeButtonToggled.swift */; };
+		F3553E422575EC040023BB96 /* WalletButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E342575EC040023BB96 /* WalletButton.swift */; };
+		F3553E432575EC040023BB96 /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E352575EC040023BB96 /* HomeButton.swift */; };
+		F3553E442575EC040023BB96 /* OrdersButtonUntoggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E362575EC040023BB96 /* OrdersButtonUntoggled.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +42,20 @@
 		F30AE78925758E4A00DAE012 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		F30AE78C257590BC00DAE012 /* CleanerTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerTile.swift; sourceTree = "<group>"; };
 		F30AE78F2575916400DAE012 /* CleanerTileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerTileButton.swift; sourceTree = "<group>"; };
+		F3553E292575EC040023BB96 /* OrderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderButton.swift; sourceTree = "<group>"; };
+		F3553E2A2575EC040023BB96 /* WalletButtonUntoggled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletButtonUntoggled.swift; sourceTree = "<group>"; };
+		F3553E2B2575EC040023BB96 /* OrdersButtonToggled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersButtonToggled.swift; sourceTree = "<group>"; };
+		F3553E2C2575EC040023BB96 /* SettingsButtonToggled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsButtonToggled.swift; sourceTree = "<group>"; };
+		F3553E2D2575EC040023BB96 /* SettingsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsButton.swift; sourceTree = "<group>"; };
+		F3553E2E2575EC040023BB96 /* HomeButtonUntoggled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeButtonUntoggled.swift; sourceTree = "<group>"; };
+		F3553E2F2575EC040023BB96 /* WalletButtonToggled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletButtonToggled.swift; sourceTree = "<group>"; };
+		F3553E302575EC040023BB96 /* PlusButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusButton.swift; sourceTree = "<group>"; };
+		F3553E312575EC040023BB96 /* SettingsButtonUntoggled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsButtonUntoggled.swift; sourceTree = "<group>"; };
+		F3553E322575EC040023BB96 /* NavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		F3553E332575EC040023BB96 /* HomeButtonToggled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeButtonToggled.swift; sourceTree = "<group>"; };
+		F3553E342575EC040023BB96 /* WalletButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletButton.swift; sourceTree = "<group>"; };
+		F3553E352575EC040023BB96 /* HomeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
+		F3553E362575EC040023BB96 /* OrdersButtonUntoggled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersButtonUntoggled.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +90,7 @@
 			children = (
 				862768672574980300A5DE22 /* WireframesApp.swift */,
 				862768692574980300A5DE22 /* ContentView.swift */,
+				F3553E512575EC8B0023BB96 /* Navigation Bar */,
 				F30AE7942575CBC200DAE012 /* Cleaner Tiles */,
 				8627686B2574980300A5DE22 /* Assets.xcassets */,
 				862768702574980300A5DE22 /* Info.plist */,
@@ -87,6 +116,67 @@
 				F30AE78925758E4A00DAE012 /* MapView.swift */,
 			);
 			path = "Cleaner Tiles";
+			sourceTree = "<group>";
+		};
+		F3553E472575EC260023BB96 /* Home Button */ = {
+			isa = PBXGroup;
+			children = (
+				F3553E352575EC040023BB96 /* HomeButton.swift */,
+				F3553E332575EC040023BB96 /* HomeButtonToggled.swift */,
+				F3553E2E2575EC040023BB96 /* HomeButtonUntoggled.swift */,
+			);
+			path = "Home Button";
+			sourceTree = "<group>";
+		};
+		F3553E492575EC2D0023BB96 /* Order Button */ = {
+			isa = PBXGroup;
+			children = (
+				F3553E292575EC040023BB96 /* OrderButton.swift */,
+				F3553E2B2575EC040023BB96 /* OrdersButtonToggled.swift */,
+				F3553E362575EC040023BB96 /* OrdersButtonUntoggled.swift */,
+			);
+			path = "Order Button";
+			sourceTree = "<group>";
+		};
+		F3553E4B2575EC350023BB96 /* Settings Button */ = {
+			isa = PBXGroup;
+			children = (
+				F3553E2D2575EC040023BB96 /* SettingsButton.swift */,
+				F3553E2C2575EC040023BB96 /* SettingsButtonToggled.swift */,
+				F3553E312575EC040023BB96 /* SettingsButtonUntoggled.swift */,
+			);
+			path = "Settings Button";
+			sourceTree = "<group>";
+		};
+		F3553E4E2575EC450023BB96 /* Wallet Button */ = {
+			isa = PBXGroup;
+			children = (
+				F3553E342575EC040023BB96 /* WalletButton.swift */,
+				F3553E2F2575EC040023BB96 /* WalletButtonToggled.swift */,
+				F3553E2A2575EC040023BB96 /* WalletButtonUntoggled.swift */,
+			);
+			path = "Wallet Button";
+			sourceTree = "<group>";
+		};
+		F3553E502575EC4F0023BB96 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F3553E302575EC040023BB96 /* PlusButton.swift */,
+				F3553E472575EC260023BB96 /* Home Button */,
+				F3553E492575EC2D0023BB96 /* Order Button */,
+				F3553E4B2575EC350023BB96 /* Settings Button */,
+				F3553E4E2575EC450023BB96 /* Wallet Button */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		F3553E512575EC8B0023BB96 /* Navigation Bar */ = {
+			isa = PBXGroup;
+			children = (
+				F3553E322575EC040023BB96 /* NavBar.swift */,
+				F3553E502575EC4F0023BB96 /* Buttons */,
+			);
+			path = "Navigation Bar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,11 +248,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3553E432575EC040023BB96 /* HomeButton.swift in Sources */,
+				F3553E422575EC040023BB96 /* WalletButton.swift in Sources */,
+				F3553E392575EC040023BB96 /* OrdersButtonToggled.swift in Sources */,
+				F3553E402575EC040023BB96 /* NavBar.swift in Sources */,
 				F30AE78D257590BC00DAE012 /* CleanerTile.swift in Sources */,
+				F3553E3C2575EC040023BB96 /* HomeButtonUntoggled.swift in Sources */,
+				F3553E442575EC040023BB96 /* OrdersButtonUntoggled.swift in Sources */,
 				8627686A2574980300A5DE22 /* ContentView.swift in Sources */,
+				F3553E3F2575EC040023BB96 /* SettingsButtonUntoggled.swift in Sources */,
+				F3553E412575EC040023BB96 /* HomeButtonToggled.swift in Sources */,
 				F30AE7902575916400DAE012 /* CleanerTileButton.swift in Sources */,
 				F30AE78A25758E4A00DAE012 /* MapView.swift in Sources */,
+				F3553E382575EC040023BB96 /* WalletButtonUntoggled.swift in Sources */,
+				F3553E3D2575EC040023BB96 /* WalletButtonToggled.swift in Sources */,
 				F30AE78725758E3C00DAE012 /* CleanerTileText.swift in Sources */,
+				F3553E3A2575EC040023BB96 /* SettingsButtonToggled.swift in Sources */,
+				F3553E372575EC040023BB96 /* OrderButton.swift in Sources */,
+				F3553E3E2575EC040023BB96 /* PlusButton.swift in Sources */,
+				F3553E3B2575EC040023BB96 /* SettingsButton.swift in Sources */,
 				862768682574980300A5DE22 /* WireframesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
