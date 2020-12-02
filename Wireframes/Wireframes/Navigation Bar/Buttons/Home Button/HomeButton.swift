@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HomeButton: View {
-    @State var toggled = false
+    @State var toggled = true
     
     var body: some View {
         Button(action: homeBtnToggle){
