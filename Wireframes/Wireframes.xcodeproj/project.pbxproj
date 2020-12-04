@@ -17,6 +17,7 @@
 		86ABE7712576F393008DE5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86ABE7702576F393008DE5BF /* Assets.xcassets */; };
 		86B372FC257AF6EB00DA048D /* WireframesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B372FB257AF6EB00DA048D /* WireframesApp.swift */; };
 		86B37302257AF6FE00DA048D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B37301257AF6FE00DA048D /* ContentView.swift */; };
+		86B37306257AF85300DA048D /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B37305257AF85300DA048D /* TestingView.swift */; };
 		F3553E372575EC040023BB96 /* OrderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E292575EC040023BB96 /* OrderButton.swift */; };
 		F3553E382575EC040023BB96 /* WalletButtonUntoggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E2A2575EC040023BB96 /* WalletButtonUntoggled.swift */; };
 		F3553E392575EC040023BB96 /* OrdersButtonToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E2B2575EC040023BB96 /* OrdersButtonToggled.swift */; };
@@ -47,6 +48,7 @@
 		86ABE7702576F393008DE5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86B372FB257AF6EB00DA048D /* WireframesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireframesApp.swift; sourceTree = "<group>"; };
 		86B37301257AF6FE00DA048D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86B37305257AF85300DA048D /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
 		F3553E292575EC040023BB96 /* OrderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderButton.swift; sourceTree = "<group>"; };
 		F3553E2A2575EC040023BB96 /* WalletButtonUntoggled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletButtonUntoggled.swift; sourceTree = "<group>"; };
 		F3553E2B2575EC040023BB96 /* OrdersButtonToggled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersButtonToggled.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				86B372FB257AF6EB00DA048D /* WireframesApp.swift */,
 				86B37301257AF6FE00DA048D /* ContentView.swift */,
+				86B37305257AF85300DA048D /* TestingView.swift */,
 				862768702574980300A5DE22 /* Info.plist */,
 				86ABE7702576F393008DE5BF /* Assets.xcassets */,
 				F3553E512575EC8B0023BB96 /* Navigation Bar */,
@@ -276,6 +279,7 @@
 				86B37302257AF6FE00DA048D /* ContentView.swift in Sources */,
 				F3553E422575EC040023BB96 /* WalletButton.swift in Sources */,
 				F3553E392575EC040023BB96 /* OrdersButtonToggled.swift in Sources */,
+				86B37306257AF85300DA048D /* TestingView.swift in Sources */,
 				F3553E402575EC040023BB96 /* NavBar.swift in Sources */,
 				F3553E3C2575EC040023BB96 /* HomeButtonUntoggled.swift in Sources */,
 				F3553E442575EC040023BB96 /* OrdersButtonUntoggled.swift in Sources */,
