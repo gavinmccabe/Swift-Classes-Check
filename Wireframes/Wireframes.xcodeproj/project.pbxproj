@@ -17,6 +17,7 @@
 		86ABE7712576F393008DE5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86ABE7702576F393008DE5BF /* Assets.xcassets */; };
 		86B372FC257AF6EB00DA048D /* WireframesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B372FB257AF6EB00DA048D /* WireframesApp.swift */; };
 		86B37302257AF6FE00DA048D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B37301257AF6FE00DA048D /* ContentView.swift */; };
+		F33951C9257AFC1000579494 /* StatusTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33951C8257AFC1000579494 /* StatusTile.swift */; };
 		F3553E372575EC040023BB96 /* OrderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E292575EC040023BB96 /* OrderButton.swift */; };
 		F3553E382575EC040023BB96 /* WalletButtonUntoggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E2A2575EC040023BB96 /* WalletButtonUntoggled.swift */; };
 		F3553E392575EC040023BB96 /* OrdersButtonToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E2B2575EC040023BB96 /* OrdersButtonToggled.swift */; };
@@ -47,6 +48,7 @@
 		86ABE7702576F393008DE5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86B372FB257AF6EB00DA048D /* WireframesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WireframesApp.swift; sourceTree = "<group>"; };
 		86B37301257AF6FE00DA048D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F33951C8257AFC1000579494 /* StatusTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTile.swift; sourceTree = "<group>"; };
 		F3553E292575EC040023BB96 /* OrderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderButton.swift; sourceTree = "<group>"; };
 		F3553E2A2575EC040023BB96 /* WalletButtonUntoggled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletButtonUntoggled.swift; sourceTree = "<group>"; };
 		F3553E2B2575EC040023BB96 /* OrdersButtonToggled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersButtonToggled.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				86B372FB257AF6EB00DA048D /* WireframesApp.swift */,
+				F33951C8257AFC1000579494 /* StatusTile.swift */,
 				86B37301257AF6FE00DA048D /* ContentView.swift */,
 				862768702574980300A5DE22 /* Info.plist */,
 				86ABE7702576F393008DE5BF /* Assets.xcassets */,
@@ -287,6 +290,7 @@
 				F3553E3A2575EC040023BB96 /* SettingsButtonToggled.swift in Sources */,
 				F3553E372575EC040023BB96 /* OrderButton.swift in Sources */,
 				F3553E3E2575EC040023BB96 /* PlusButton.swift in Sources */,
+				F33951C9257AFC1000579494 /* StatusTile.swift in Sources */,
 				F3553E3B2575EC040023BB96 /* SettingsButton.swift in Sources */,
 				861A15242575FAB100351416 /* CleanerTile.swift in Sources */,
 				86ABE7692576E758008DE5BF /* PromotionBadge.swift in Sources */,
