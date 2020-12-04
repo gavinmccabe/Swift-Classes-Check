@@ -15,15 +15,12 @@ struct NavBar: View {
                 RoundedRectangle(cornerRadius: 10)
                     .foregroundColor(.white)
                     .frame(width: UIScreen.main.bounds.width, height: 50)
-                HStack(){
+                    .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.5)), radius: 8)
+                HStack(spacing: 45){
                     HomeButton()
-                    Spacer()
                     OrderButton()
-                    Spacer()
                     SettingsButton()
-                    Spacer()
                     WalletButton()
-                    Spacer()
                     VStack(){
                         
                         PlusButton()
@@ -32,8 +29,8 @@ struct NavBar: View {
                         
                     }
                 }
-            }
-        }
+            }.edgesIgnoringSafeArea(.all)
+        }.edgesIgnoringSafeArea(.all)
     }
 }
 
