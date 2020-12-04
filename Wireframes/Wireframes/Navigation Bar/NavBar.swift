@@ -12,10 +12,10 @@ struct NavBar: View {
         VStack(){
             Spacer()
             ZStack(){
-                RoundedRectangle(cornerRadius: 10)
+                RoundedRectangle(cornerRadius: 15)
                     .foregroundColor(.white)
-                    .frame(width: UIScreen.main.bounds.width, height: 50)
-                    .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.5)), radius: 8)
+                    .frame(width: UIScreen.main.bounds.width, height: 70)
+                    .shadow(color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.2459773386)), radius: 5)
                 HStack(spacing: 45){
                     HomeButton()
                     OrderButton()
@@ -24,12 +24,14 @@ struct NavBar: View {
                     VStack(){
                         
                         PlusButton()
-                        Spacer()
-                            .frame(height: 10)
+                            .offset(y: -60)
+                            .padding(.top, 50)
+                        
                         
                     }
                 }
             }.edgesIgnoringSafeArea(.all)
+            .frame(height: 70)
         }.edgesIgnoringSafeArea(.all)
     }
 }
