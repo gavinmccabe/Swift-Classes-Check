@@ -19,6 +19,7 @@ struct RecentOrderTile: View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .clipShape(RoundedRectangle(cornerRadius: 25))
+                .blur(radius: 2)
             VStack(){
                 HStack(){
                     Spacer()
