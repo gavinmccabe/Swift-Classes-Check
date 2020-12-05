@@ -22,12 +22,17 @@ struct RecentOrderTile: View {
             VStack(){
                 HStack(){
                     Spacer()
-                        .frame(width: 5)
+                        .frame(width: 10)
                     VStack(){
                         Spacer()
-                            .frame(height: 5)
-                        Text("\(numItems) Items")
-                            .foregroundColor(Color(#colorLiteral(red: 0.9568627451, green: 0.9607843137, blue: 0.9725490196, alpha: 1)))
+                            .frame(height: 10)
+                        HStack(){
+                            Image(systemName: "square.fill")
+                                .foregroundColor(Color(#colorLiteral(red: 0.9568627451, green: 0.9607843137, blue: 0.9725490196, alpha: 1)))
+                            Text("\(numItems) Items")
+                                .foregroundColor(Color(#colorLiteral(red: 0.9568627451, green: 0.9607843137, blue: 0.9725490196, alpha: 1)))
+                            Spacer()
+                        }
                         Spacer()
                         Text("\(date) / \(time)")
                             .foregroundColor(Color(#colorLiteral(red: 0.9568627451, green: 0.9607843137, blue: 0.9725490196, alpha: 1)))
