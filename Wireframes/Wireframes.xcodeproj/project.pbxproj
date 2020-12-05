@@ -19,6 +19,8 @@
 		86B37302257AF6FE00DA048D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B37301257AF6FE00DA048D /* ContentView.swift */; };
 		F33951C4257AF8A700579494 /* StatusTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33951C3257AF8A700579494 /* StatusTile.swift */; };
 		86B37306257AF85300DA048D /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B37305257AF85300DA048D /* TestingView.swift */; };
+		F33951C9257AFC1000579494 /* StatusTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33951C8257AFC1000579494 /* StatusTile.swift */; };
+		F33951D0257B022300579494 /* RecentOrderTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33951CF257B022300579494 /* RecentOrderTile.swift */; };
 		F3553E372575EC040023BB96 /* OrderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E292575EC040023BB96 /* OrderButton.swift */; };
 		F3553E382575EC040023BB96 /* WalletButtonUntoggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E2A2575EC040023BB96 /* WalletButtonUntoggled.swift */; };
 		F3553E392575EC040023BB96 /* OrdersButtonToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E2B2575EC040023BB96 /* OrdersButtonToggled.swift */; };
@@ -51,6 +53,8 @@
 		86B37301257AF6FE00DA048D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F33951C3257AF8A700579494 /* StatusTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTile.swift; sourceTree = "<group>"; };
 		86B37305257AF85300DA048D /* TestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingView.swift; sourceTree = "<group>"; };
+		F33951C8257AFC1000579494 /* StatusTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTile.swift; sourceTree = "<group>"; };
+		F33951CF257B022300579494 /* RecentOrderTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentOrderTile.swift; sourceTree = "<group>"; };
 		F3553E292575EC040023BB96 /* OrderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderButton.swift; sourceTree = "<group>"; };
 		F3553E2A2575EC040023BB96 /* WalletButtonUntoggled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletButtonUntoggled.swift; sourceTree = "<group>"; };
 		F3553E2B2575EC040023BB96 /* OrdersButtonToggled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersButtonToggled.swift; sourceTree = "<group>"; };
@@ -103,6 +107,7 @@
 				86B37305257AF85300DA048D /* TestingView.swift */,
 				862768702574980300A5DE22 /* Info.plist */,
 				86ABE7702576F393008DE5BF /* Assets.xcassets */,
+				F33951D3257B4BDD00579494 /* Recent Order Tile */,
 				F3553E512575EC8B0023BB96 /* Navigation Bar */,
 				86ABE7632576E618008DE5BF /* PromotionCard */,
 				861A15222575FA9E00351416 /* CleanerTiles */,
@@ -146,6 +151,15 @@
 				86ABE7682576E758008DE5BF /* PromotionBadge.swift */,
 			);
 			path = PromotionCard;
+			sourceTree = "<group>";
+		};
+		F33951D3257B4BDD00579494 /* Recent Order Tile */ = {
+			isa = PBXGroup;
+			children = (
+				F33951C8257AFC1000579494 /* StatusTile.swift */,
+				F33951CF257B022300579494 /* RecentOrderTile.swift */,
+			);
+			path = "Recent Order Tile";
 			sourceTree = "<group>";
 		};
 		F3553E472575EC260023BB96 /* Home Button */ = {
@@ -290,11 +304,13 @@
 				F3553E412575EC040023BB96 /* HomeButtonToggled.swift in Sources */,
 				86B372FC257AF6EB00DA048D /* WireframesApp.swift in Sources */,
 				F3553E382575EC040023BB96 /* WalletButtonUntoggled.swift in Sources */,
+				F33951D0257B022300579494 /* RecentOrderTile.swift in Sources */,
 				F3553E3D2575EC040023BB96 /* WalletButtonToggled.swift in Sources */,
 				F3553E3A2575EC040023BB96 /* SettingsButtonToggled.swift in Sources */,
 				F3553E372575EC040023BB96 /* OrderButton.swift in Sources */,
 				F3553E3E2575EC040023BB96 /* PlusButton.swift in Sources */,
 				F33951C4257AF8A700579494 /* StatusTile.swift in Sources */,
+				F33951C9257AFC1000579494 /* StatusTile.swift in Sources */,
 				F3553E3B2575EC040023BB96 /* SettingsButton.swift in Sources */,
 				861A15242575FAB100351416 /* CleanerTile.swift in Sources */,
 				86ABE7692576E758008DE5BF /* PromotionBadge.swift in Sources */,
