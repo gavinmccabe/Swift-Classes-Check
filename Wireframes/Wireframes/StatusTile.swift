@@ -14,7 +14,7 @@ struct StatusTile: View {
         ZStack(){
             
             RoundedRectangle(cornerRadius: 10)
-                .foregroundColor(Color(#colorLiteral(red: 0.6862745098, green: 0.6980392157, blue: 0.7607843137, alpha: 0.5)))
+                .foregroundColor(Color(#colorLiteral(red: 0.6862745098, green: 0.6980392157, blue: 0.7607843137, alpha: 0.7789370303)))
             HStack(){
                 Spacer()
                     .frame(width: 5)
@@ -43,7 +43,7 @@ struct StatusTile: View {
                     .frame(width: 5)
                 
             }
-        }.frame(width: 290, height: 70)
+        }.frame(width: 355, height: 70)
     }
 }
 
