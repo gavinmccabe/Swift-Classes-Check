@@ -22,10 +22,10 @@ struct RecentOrderTile: View {
             VStack(){
                 HStack(){
                     Spacer()
-                        .frame(width: 10)
+                        .frame(width: 20)
                     VStack(){
                         Spacer()
-                            .frame(height: 10)
+                            .frame(height: 20)
                         HStack(){
                             Image(systemName: "square.fill")
                                 .foregroundColor(Color(#colorLiteral(red: 0.9568627451, green: 0.9607843137, blue: 0.9725490196, alpha: 1)))
@@ -34,22 +34,41 @@ struct RecentOrderTile: View {
                             Spacer()
                         }
                         Spacer()
-                        Text("\(date) / \(time)")
-                            .foregroundColor(Color(#colorLiteral(red: 0.9568627451, green: 0.9607843137, blue: 0.9725490196, alpha: 1)))
+                        HStack(){
+                            Image(systemName: "calendar")
+                                .foregroundColor(Color(#colorLiteral(red: 0.9568627451, green: 0.9607843137, blue: 0.9725490196, alpha: 1)))
+                            Text("\(date) / \(time)")
+                                .foregroundColor(Color(#colorLiteral(red: 0.9568627451, green: 0.9607843137, blue: 0.9725490196, alpha: 1)))
+                            Spacer()
+                        }
                         Spacer()
-                        Text("\(address)")
-                            .foregroundColor(Color(#colorLiteral(red: 0.9568627451, green: 0.9607843137, blue: 0.9725490196, alpha: 1)))
+                        HStack(){
+                            Image(systemName: "mappin")
+                                .foregroundColor(Color(#colorLiteral(red: 0.9568627451, green: 0.9607843137, blue: 0.9725490196, alpha: 1)))
+                            Text("\(address)")
+                                .foregroundColor(Color(#colorLiteral(red: 0.9568627451, green: 0.9607843137, blue: 0.9725490196, alpha: 1)))
+                            Spacer()
+                        }
                         Spacer()
                 
                     }
                     Spacer()
                 }
-                StatusTile(status: "Done", id: "688432")
+                Button(action: statusBtnPressed) {
+                    
+                    StatusTile(status: "Done", id: "688432")
+                    
+                }
                 Spacer()
                     .frame(height: 10)
             }
             
         }.frame(width: 375, height: 220)
+    }
+    func statusBtnPressed() {
+        
+        print("Status Btn Pressed!")
+        
     }
 }
 
