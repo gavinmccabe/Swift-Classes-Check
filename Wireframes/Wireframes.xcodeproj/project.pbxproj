@@ -98,11 +98,10 @@
 			isa = PBXGroup;
 			children = (
 				86B372FB257AF6EB00DA048D /* WireframesApp.swift */,
-				F33951C8257AFC1000579494 /* StatusTile.swift */,
-				F33951CF257B022300579494 /* RecentOrderTile.swift */,
 				86B37301257AF6FE00DA048D /* ContentView.swift */,
 				862768702574980300A5DE22 /* Info.plist */,
 				86ABE7702576F393008DE5BF /* Assets.xcassets */,
+				F33951D3257B4BDD00579494 /* Recent Order Tile */,
 				F3553E512575EC8B0023BB96 /* Navigation Bar */,
 				86ABE7632576E618008DE5BF /* PromotionCard */,
 				861A15222575FA9E00351416 /* CleanerTiles */,
@@ -146,6 +145,15 @@
 				86ABE7682576E758008DE5BF /* PromotionBadge.swift */,
 			);
 			path = PromotionCard;
+			sourceTree = "<group>";
+		};
+		F33951D3257B4BDD00579494 /* Recent Order Tile */ = {
+			isa = PBXGroup;
+			children = (
+				F33951C8257AFC1000579494 /* StatusTile.swift */,
+				F33951CF257B022300579494 /* RecentOrderTile.swift */,
+			);
+			path = "Recent Order Tile";
 			sourceTree = "<group>";
 		};
 		F3553E472575EC260023BB96 /* Home Button */ = {
