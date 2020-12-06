@@ -18,8 +18,9 @@ struct RecentOrderTile: View {
             Image("clothes_bg")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .clipShape(RoundedRectangle(cornerRadius: 25))
-                .blur(radius: 2)
+                .frame(width: 380, height: 220)
+                
+            
             VStack(){
                 HStack(){
                     Spacer()
@@ -64,7 +65,8 @@ struct RecentOrderTile: View {
                     .frame(height: 10)
             }
             
-        }.frame(width: 375, height: 220)
+        }.frame(width: 380, height: 220)
+        .clipShape(RoundedRectangle(cornerRadius: 25))
     }
     func statusBtnPressed() {
         

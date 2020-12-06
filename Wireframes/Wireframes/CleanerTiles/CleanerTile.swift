@@ -8,25 +8,29 @@
 import SwiftUI
 
 struct CleanerTile: View {
+    
+    @State var cleanerName: String
+    @State var cleanerAddress: String
+    
     var body: some View {
         ZStack(){
             
             Image("map_bg")
                 .resizable()
-                .cornerRadius(10)
+                .cornerRadius(20)
             VStack(){
                 Spacer()
-                CleanerTileButton(cleanerName: "Cleaner's Name", cleanerAddress: "1169 11th street")
+                CleanerTileButton(cleanerName: cleanerName, cleanerAddress: cleanerAddress)
                 Spacer()
-                    .frame(height: 5)
+                    .frame(height: 10)
             }
             
-        }.frame(width: 270, height: 200)
+        }.frame(width: 380, height: 210)
     }
 }
 
 struct CleanerTile_Previews: PreviewProvider {
     static var previews: some View {
-        CleanerTile()
+        CleanerTile(cleanerName: "Cleaner's Name", cleanerAddress: "1169 11th Street")
     }
 }
