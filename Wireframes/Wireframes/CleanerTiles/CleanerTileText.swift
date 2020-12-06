@@ -14,24 +14,29 @@ struct CleanerTileText: View {
         ZStack(){
             RoundedRectangle(cornerRadius: 10)
                 .foregroundColor(.white)
+                .frame(width: 360, height: 60)
             HStack(){
                 VStack(){
+                    Spacer()
                     HStack(){
                         Spacer()
                             .frame(width: 5)
                         Text(cleanerName)
                             .foregroundColor(Color(#colorLiteral(red: 0.5803921569, green: 0.6156862745, blue: 0.6549019608, alpha: 1)))
+                            .font(.custom("HelveticaNeue-Medium", size: 18))
                         Spacer()
                     }
                     Spacer()
+                        .frame(height: 5)
                     HStack(){
                         Spacer()
                             .frame(width: 5)
                         Text(cleanerAddress)
                             .foregroundColor(Color(#colorLiteral(red: 0.8196078431, green: 0.831372549, blue: 0.8431372549, alpha: 1)))
-                            .font(.custom("HelveticaNeue", size: 10))
+                            .font(.custom("HelveticaNeue", size: 13))
                         Spacer()
                     }
+                    Spacer()
                 }
                 Spacer()
                 HStack(){
@@ -48,7 +53,7 @@ struct CleanerTileText: View {
                         .frame(width: 5)
                 }
             }
-        }.frame(width: 250, height: 50)
+        }.frame(width: 360, height: 60)
     }
 }
 
