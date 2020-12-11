@@ -34,6 +34,7 @@
 		F3553E422575EC040023BB96 /* WalletButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E342575EC040023BB96 /* WalletButton.swift */; };
 		F3553E432575EC040023BB96 /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E352575EC040023BB96 /* HomeButton.swift */; };
 		F3553E442575EC040023BB96 /* OrdersButtonUntoggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E362575EC040023BB96 /* OrdersButtonUntoggled.swift */; };
+		F3CDEF5B2583E00400193EBA /* ButtonText.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CDEF5A2583E00400193EBA /* ButtonText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		F3553E342575EC040023BB96 /* WalletButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletButton.swift; sourceTree = "<group>"; };
 		F3553E352575EC040023BB96 /* HomeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
 		F3553E362575EC040023BB96 /* OrdersButtonUntoggled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersButtonUntoggled.swift; sourceTree = "<group>"; };
+		F3CDEF5A2583E00400193EBA /* ButtonText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ButtonText.swift; path = Wireframes/ButtonText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		861A14F62575F97C00351416 = {
 			isa = PBXGroup;
 			children = (
+				F3CDEF5A2583E00400193EBA /* ButtonText.swift */,
 				861A15012575F97C00351416 /* Wireframes */,
 				861A15002575F97C00351416 /* Products */,
 			);
@@ -313,6 +316,7 @@
 				F3553E3D2575EC040023BB96 /* WalletButtonToggled.swift in Sources */,
 				F3553E3A2575EC040023BB96 /* SettingsButtonToggled.swift in Sources */,
 				F3553E372575EC040023BB96 /* OrderButton.swift in Sources */,
+				F3CDEF5B2583E00400193EBA /* ButtonText.swift in Sources */,
 				F3553E3E2575EC040023BB96 /* PlusButton.swift in Sources */,
 				F33951C9257AFC1000579494 /* StatusTile.swift in Sources */,
 				F3553E3B2575EC040023BB96 /* SettingsButton.swift in Sources */,
