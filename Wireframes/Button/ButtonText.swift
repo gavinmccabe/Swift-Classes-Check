@@ -11,7 +11,7 @@ struct ButtonText: View {
     @State var text: String
     var body: some View {
         Text(text)
-            .font(.custom("HelveticaNeue", size: 20))
+            .font(.custom("HelveticaNeue-Bold", size: 17))
             .foregroundColor(.white)
     }
 }
