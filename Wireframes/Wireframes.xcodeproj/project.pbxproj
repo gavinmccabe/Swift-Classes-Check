@@ -87,7 +87,6 @@
 		861A14F62575F97C00351416 = {
 			isa = PBXGroup;
 			children = (
-				F3CDEF602583E0EA00193EBA /* Button */,
 				861A15012575F97C00351416 /* Wireframes */,
 				861A15002575F97C00351416 /* Products */,
 			);
@@ -108,6 +107,7 @@
 				86B37301257AF6FE00DA048D /* ContentView.swift */,
 				862768702574980300A5DE22 /* Info.plist */,
 				86ABE7702576F393008DE5BF /* Assets.xcassets */,
+				F3CDEF602583E0EA00193EBA /* Button */,
 				86662712257D73DF00D40256 /* Text */,
 				F33951D3257B4BDD00579494 /* Recent Order Tile */,
 				F3553E512575EC8B0023BB96 /* Navigation Bar */,
