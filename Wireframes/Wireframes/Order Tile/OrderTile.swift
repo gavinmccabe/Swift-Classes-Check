@@ -8,13 +8,44 @@
 import SwiftUI
 
 struct OrderTile: View {
+    @State var price: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack(){
+            RoundedRectangle(cornerRadius: 20)
+                .foregroundColor(.white)
+            VStack(){
+                HStack(){
+                    
+                    Text("$\(price)")
+                    
+                }
+                HStack(){
+                    Spacer()
+                        .frame(width: 20)
+                    TextSpecification(numItems: 4, date: "04 Dec", time: "09:30 PM", address: "1169 11th Street")
+                    Spacer()
+                }
+                Button(action: statusBtnPressed) {
+                    
+                    StatusTile2(status: "Done", id: "688432")
+                    
+                }
+                Spacer()
+                    .frame(height: 10)
+            }
+            
+        }.frame(width: 380, height: 220)
+        .clipShape(RoundedRectangle(cornerRadius: 25))
+    }
+    func statusBtnPressed() {
+        
+        print("Status Btn Pressed!")
+        
     }
 }
 
 struct OrderTile_Previews: PreviewProvider {
     static var previews: some View {
-        OrderTile()
+        OrderTile(price: "20.99")
     }
 }

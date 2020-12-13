@@ -14,6 +14,7 @@ struct Rating: View {
             
             Text(rating)
                 .foregroundColor(Color(#colorLiteral(red: 0.6431372549, green: 0.6705882353, blue: 0.6509803922, alpha: 1)))
+            HangrRating()
             
         }
     }

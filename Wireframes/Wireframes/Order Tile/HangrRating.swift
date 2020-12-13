@@ -14,7 +14,31 @@ struct HangrRating: View {
             Image("hanger")
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 50, height: 50)
+                .frame(width: 15, height: 15)
+            }
+            GeometryReader { geo in
+            Image("hanger")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 15, height: 15)
+            }
+            GeometryReader { geo in
+            Image("hanger")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 15, height: 15)
+            }
+            GeometryReader { geo in
+            Image("hanger")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 15, height: 15)
+            }
+            GeometryReader { geo in
+            Image("hanger")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 15, height: 15)
             }
         }
     }
