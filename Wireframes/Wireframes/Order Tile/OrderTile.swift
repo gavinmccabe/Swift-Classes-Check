@@ -15,10 +15,13 @@ struct OrderTile: View {
                 .foregroundColor(.white)
             VStack(){
                 HStack(){
-                    
+                    Spacer()
+                        .frame(width: 10)
                     Text("$\(price)")
+                    Spacer()
                     
                 }
+                DottedSeperator(width: 350)
                 HStack(){
                     Spacer()
                         .frame(width: 20)
