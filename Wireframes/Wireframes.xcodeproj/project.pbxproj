@@ -13,6 +13,9 @@
 		861A15282575FAB800351416 /* CleanerTileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A15272575FAB800351416 /* CleanerTileButton.swift */; };
 		861A152B2575FAC500351416 /* CleanerTileText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861A152A2575FAC500351416 /* CleanerTileText.swift */; };
 		86662714257D73FB00D40256 /* HomeScreenCategoryText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86662713257D73FB00D40256 /* HomeScreenCategoryText.swift */; };
+		8689CC282586ACFC00E52443 /* PageSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8689CC272586ACFC00E52443 /* PageSelector.swift */; };
+		8689CC2C2586AD0500E52443 /* PageSelectorDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8689CC2B2586AD0500E52443 /* PageSelectorDot.swift */; };
+		8689CC2F2586AD1000E52443 /* PageSelectorDash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8689CC2E2586AD1000E52443 /* PageSelectorDash.swift */; };
 		86ABE7652576E627008DE5BF /* PromotionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ABE7642576E627008DE5BF /* PromotionCard.swift */; };
 		86ABE7692576E758008DE5BF /* PromotionBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ABE7682576E758008DE5BF /* PromotionBadge.swift */; };
 		86ABE7712576F393008DE5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86ABE7702576F393008DE5BF /* Assets.xcassets */; };
@@ -48,6 +51,9 @@
 		861A152A2575FAC500351416 /* CleanerTileText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerTileText.swift; sourceTree = "<group>"; };
 		862768702574980300A5DE22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86662713257D73FB00D40256 /* HomeScreenCategoryText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenCategoryText.swift; sourceTree = "<group>"; };
+		8689CC272586ACFC00E52443 /* PageSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSelector.swift; sourceTree = "<group>"; };
+		8689CC2B2586AD0500E52443 /* PageSelectorDot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSelectorDot.swift; sourceTree = "<group>"; };
+		8689CC2E2586AD1000E52443 /* PageSelectorDash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageSelectorDash.swift; sourceTree = "<group>"; };
 		86ABE7642576E627008DE5BF /* PromotionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionCard.swift; sourceTree = "<group>"; };
 		86ABE7682576E758008DE5BF /* PromotionBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionBadge.swift; sourceTree = "<group>"; };
 		86ABE7702576F393008DE5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,6 +113,7 @@
 				86B37301257AF6FE00DA048D /* ContentView.swift */,
 				862768702574980300A5DE22 /* Info.plist */,
 				86ABE7702576F393008DE5BF /* Assets.xcassets */,
+				8689CC262586ACC800E52443 /* PageSelector */,
 				F3CDEF602583E0EA00193EBA /* Button */,
 				86662712257D73DF00D40256 /* Text */,
 				F33951D3257B4BDD00579494 /* Recent Order Tile */,
@@ -152,6 +159,16 @@
 				86662713257D73FB00D40256 /* HomeScreenCategoryText.swift */,
 			);
 			path = Text;
+			sourceTree = "<group>";
+		};
+		8689CC262586ACC800E52443 /* PageSelector */ = {
+			isa = PBXGroup;
+			children = (
+				8689CC272586ACFC00E52443 /* PageSelector.swift */,
+				8689CC2B2586AD0500E52443 /* PageSelectorDot.swift */,
+				8689CC2E2586AD1000E52443 /* PageSelectorDash.swift */,
+			);
+			path = PageSelector;
 			sourceTree = "<group>";
 		};
 		86ABE7632576E618008DE5BF /* PromotionCard */ = {
@@ -316,6 +333,7 @@
 				F3553E422575EC040023BB96 /* WalletButton.swift in Sources */,
 				F3553E392575EC040023BB96 /* OrdersButtonToggled.swift in Sources */,
 				F3553E402575EC040023BB96 /* NavBar.swift in Sources */,
+				8689CC2F2586AD1000E52443 /* PageSelectorDash.swift in Sources */,
 				F3553E3C2575EC040023BB96 /* HomeButtonUntoggled.swift in Sources */,
 				F3553E442575EC040023BB96 /* OrdersButtonUntoggled.swift in Sources */,
 				F3553E3F2575EC040023BB96 /* SettingsButtonUntoggled.swift in Sources */,
@@ -326,6 +344,7 @@
 				F33951D0257B022300579494 /* RecentOrderTile.swift in Sources */,
 				F3553E3D2575EC040023BB96 /* WalletButtonToggled.swift in Sources */,
 				F3553E3A2575EC040023BB96 /* SettingsButtonToggled.swift in Sources */,
+				8689CC282586ACFC00E52443 /* PageSelector.swift in Sources */,
 				F3553E372575EC040023BB96 /* OrderButton.swift in Sources */,
 				F3CDEF5E2583E0BC00193EBA /* FullScreenButton.swift in Sources */,
 				F3CDEF5B2583E00400193EBA /* ButtonText.swift in Sources */,
@@ -333,6 +352,7 @@
 				F33951C9257AFC1000579494 /* StatusTile.swift in Sources */,
 				F3553E3B2575EC040023BB96 /* SettingsButton.swift in Sources */,
 				861A15242575FAB100351416 /* CleanerTile.swift in Sources */,
+				8689CC2C2586AD0500E52443 /* PageSelectorDot.swift in Sources */,
 				86ABE7692576E758008DE5BF /* PromotionBadge.swift in Sources */,
 				861A152B2575FAC500351416 /* CleanerTileText.swift in Sources */,
 				861A15282575FAB800351416 /* CleanerTileButton.swift in Sources */,
