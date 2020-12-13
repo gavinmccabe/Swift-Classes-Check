@@ -28,6 +28,8 @@ struct StatusTile: View {
                 Text(status)
                     .foregroundColor(Color(#colorLiteral(red: 0.9568627451, green: 0.9607843137, blue: 0.9725490196, alpha: 1)))
                 Spacer()
+                Text("ID: ")
+                    .foregroundColor(Color(#colorLiteral(red: 0.9568627451, green: 0.9607843137, blue: 0.9725490196, alpha: 1)))
                 Text(id)
                     .foregroundColor(Color(#colorLiteral(red: 0.9568627451, green: 0.9607843137, blue: 0.9725490196, alpha: 1)))
                 ZStack(){

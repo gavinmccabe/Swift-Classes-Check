@@ -22,6 +22,7 @@
 		F31084D82586A3DC005DA665 /* HangrRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31084D72586A3DC005DA665 /* HangrRating.swift */; };
 		F31084DC2586A403005DA665 /* TextSpecification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31084DB2586A403005DA665 /* TextSpecification.swift */; };
 		F31084E12586A44A005DA665 /* StatusTile2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31084E02586A44A005DA665 /* StatusTile2.swift */; };
+		F31084E42586A7D5005DA665 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31084E32586A7D5005DA665 /* Rating.swift */; };
 		F33951C9257AFC1000579494 /* StatusTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33951C8257AFC1000579494 /* StatusTile.swift */; };
 		F33951D0257B022300579494 /* RecentOrderTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33951CF257B022300579494 /* RecentOrderTile.swift */; };
 		F3553E372575EC040023BB96 /* OrderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3553E292575EC040023BB96 /* OrderButton.swift */; };
@@ -61,6 +62,7 @@
 		F31084D72586A3DC005DA665 /* HangrRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangrRating.swift; sourceTree = "<group>"; };
 		F31084DB2586A403005DA665 /* TextSpecification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSpecification.swift; sourceTree = "<group>"; };
 		F31084E02586A44A005DA665 /* StatusTile2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTile2.swift; sourceTree = "<group>"; };
+		F31084E32586A7D5005DA665 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
 		F33951C8257AFC1000579494 /* StatusTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTile.swift; sourceTree = "<group>"; };
 		F33951CF257B022300579494 /* RecentOrderTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentOrderTile.swift; sourceTree = "<group>"; };
 		F3553E292575EC040023BB96 /* OrderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderButton.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 			children = (
 				F31084D42586A3C4005DA665 /* OrderTile.swift */,
 				F31084D72586A3DC005DA665 /* HangrRating.swift */,
+				F31084E32586A7D5005DA665 /* Rating.swift */,
 				F31084DB2586A403005DA665 /* TextSpecification.swift */,
 				F31084E02586A44A005DA665 /* StatusTile2.swift */,
 			);
@@ -343,6 +346,7 @@
 				F3553E412575EC040023BB96 /* HomeButtonToggled.swift in Sources */,
 				86B372FC257AF6EB00DA048D /* WireframesApp.swift in Sources */,
 				F3553E382575EC040023BB96 /* WalletButtonUntoggled.swift in Sources */,
+				F31084E42586A7D5005DA665 /* Rating.swift in Sources */,
 				F33951D0257B022300579494 /* RecentOrderTile.swift in Sources */,
 				F3553E3D2575EC040023BB96 /* WalletButtonToggled.swift in Sources */,
 				F3553E3A2575EC040023BB96 /* SettingsButtonToggled.swift in Sources */,

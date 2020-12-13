@@ -9,7 +9,14 @@ import SwiftUI
 
 struct HangrRating: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(){
+            GeometryReader { geo in
+            Image("hanger")
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 50, height: 50)
+            }
+        }
     }
 }
 
