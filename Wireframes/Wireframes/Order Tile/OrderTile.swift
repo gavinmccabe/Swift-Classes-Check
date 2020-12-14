@@ -9,6 +9,7 @@ import SwiftUI
 
 struct OrderTile: View {
     @State var price: String
+    @State var cleanerRating: Double
     var body: some View {
         ZStack(){
             RoundedRectangle(cornerRadius: 20)
@@ -19,6 +20,8 @@ struct OrderTile: View {
                         .frame(width: 10)
                     Text("$\(price)")
                     Spacer()
+                    Text(String(cleanerRating))
+                    HangerRating(cleanerRating)
                     
                 }
                 DottedSeperator(width: 350)
@@ -49,6 +52,6 @@ struct OrderTile: View {
 
 struct OrderTile_Previews: PreviewProvider {
     static var previews: some View {
-        OrderTile(price: "20.99")
+        OrderTile(price: "20.99", rating: 3.6)
     }
 }
