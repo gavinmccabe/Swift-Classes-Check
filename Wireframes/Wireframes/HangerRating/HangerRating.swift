@@ -40,7 +40,7 @@ struct HangerRating: View {
     // MARK: SwiftUI View
     var body: some View {
         
-        HStack {
+        HStack(spacing: 4){
             
             ForEach(1..<6) {number in
                 genHanger(rating: self.rating, index: number)
