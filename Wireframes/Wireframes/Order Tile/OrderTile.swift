@@ -17,14 +17,32 @@ struct OrderTile: View {
             VStack(){
                 HStack(){
                     Spacer()
-                        .frame(width: 10)
-                    Text("$\(price)")
+                        .frame(width: 15)
+                    VStack(){
+                        Spacer()
+                            .frame(height: 15)
+                        Text("$\(price)")
+                            .foregroundColor(Color(#colorLiteral(red: 0.2666666667, green: 0.3294117647, blue: 0.5254901961, alpha: 1)))
+                            .font(.custom("HelveticaNeue", size: 17))
+                    }
                     Spacer()
-                    Text(String(cleanerRating))
-                    HangerRating(cleanerRating)
+                    VStack(){
+                        Spacer()
+                            .frame(height: 15)
+                        HStack(){
+                            Text(String(cleanerRating))
+                                .foregroundColor(Color(#colorLiteral(red: 0.6156862745, green: 0.6470588235, blue: 0.6941176471, alpha: 1)))
+                                .font(.custom("HelveticaNeue", size: 13))
+                            try? HangerRating(cleanerRating)
+                            Spacer()
+                                .frame(width: 10)
+                        }
+                    }
+                    Spacer()
+                        .frame(width: 10)
                     
                 }
-                DottedSeperator(width: 350)
+                DottedSeperator(width: 375, color: Color(#colorLiteral(red: 0.9490196078, green: 0.9568627451, blue: 0.9647058824, alpha: 1)))
                 HStack(){
                     Spacer()
                         .frame(width: 20)
@@ -52,6 +70,6 @@ struct OrderTile: View {
 
 struct OrderTile_Previews: PreviewProvider {
     static var previews: some View {
-        OrderTile(price: "20.99", rating: 3.6)
+        OrderTile(price: "20.99", cleanerRating: 3.6)
     }
 }

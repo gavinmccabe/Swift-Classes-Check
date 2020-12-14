@@ -10,12 +10,13 @@ import SwiftUI
 struct DottedSeperator: View {
     
     @State var width: Int
-    @State var color: Color = .black
+    @State var color: Color
     
     var body: some View {
         Line()
            .stroke(style: StrokeStyle(lineWidth: 1, dash: [5]))
             .frame(width: CGFloat(width), height: 1)
+            .foregroundColor(color)
     }
 }
 
@@ -30,6 +31,6 @@ struct Line: Shape {
 
 struct DottedSeperator_Previews: PreviewProvider {
     static var previews: some View {
-        DottedSeperator(width: 100)
+        DottedSeperator(width: 100, color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)))
     }
 }

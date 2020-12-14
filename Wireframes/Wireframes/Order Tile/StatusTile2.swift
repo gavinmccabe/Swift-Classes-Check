@@ -20,10 +20,12 @@ struct StatusTile2: View {
                     .frame(width: 5)
                 ZStack(){
                     Circle()
-                        .frame(width: 45, height: 45)
+                        .frame(width: 25, height: 25)
                         .foregroundColor(Color(#colorLiteral(red: 0.3882352941, green: 0.4235294118, blue: 0.5764705882, alpha: 1)))
                     Image(systemName: "checkmark")
+                        .resizable()
                         .foregroundColor(Color(#colorLiteral(red: 0.9568627451, green: 0.9607843137, blue: 0.9725490196, alpha: 0.5)))
+                        .frame(width: 10, height: 10)
                 }
                 Text(status)
                     .foregroundColor(Color(#colorLiteral(red: 0.3882352941, green: 0.4235294118, blue: 0.5764705882, alpha: 1)))
@@ -45,7 +47,7 @@ struct StatusTile2: View {
                     .frame(width: 5)
                 
             }
-        }.frame(width: 355, height: 70)
+        }.frame(width: 355, height: 55)
     }
 }
 

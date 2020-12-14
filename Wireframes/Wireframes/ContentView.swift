@@ -33,7 +33,7 @@ struct ContentView: View {
             
             Spacer()
             
-            DottedSeperator(width: 400)
+            DottedSeperator(width: 400, color: Color(#colorLiteral(red: 0.9490196078, green: 0.9568627451, blue: 0.9647058824, alpha: 1)))
             
             Spacer()
             
