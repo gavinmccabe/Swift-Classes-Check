@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct OrderTile: View {
+    
     @State var price: Double
     @State var cleanerRating: Double
+    @State var numItems: Int
+    @State var date: String
+    @State var time: String
+    @State var address: String
     var body: some View {
         ZStack(){
             RoundedRectangle(cornerRadius: 20)
@@ -70,6 +75,6 @@ struct OrderTile: View {
 
 struct OrderTile_Previews: PreviewProvider {
     static var previews: some View {
-        OrderTile(price: 20.99, cleanerRating: 3.5)
+        OrderTile(price: 20.99, cleanerRating: 3.5, numItems: 4, date: "04 Dec", time: "09:30 PM", address: "1169 11th Street")
     }
 }
