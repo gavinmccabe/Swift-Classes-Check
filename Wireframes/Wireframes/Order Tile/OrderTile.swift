@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct OrderTile: View {
-    @State var price: String
+    @State var price: Double
     @State var cleanerRating: Double
     var body: some View {
         ZStack(){
@@ -21,7 +21,7 @@ struct OrderTile: View {
                     VStack(){
                         Spacer()
                             .frame(height: 15)
-                        Text("$\(price)")
+                        Text("$\(String(format: "%.2f", price))")
                             .foregroundColor(Color(#colorLiteral(red: 0.2666666667, green: 0.3294117647, blue: 0.5254901961, alpha: 1)))
                             .font(.custom("HelveticaNeue", size: 17))
                     }
@@ -70,6 +70,6 @@ struct OrderTile: View {
 
 struct OrderTile_Previews: PreviewProvider {
     static var previews: some View {
-        OrderTile(price: "20.99", cleanerRating: 3.6)
+        OrderTile(price: 20.99, cleanerRating: 3.5)
     }
 }
