@@ -10,7 +10,7 @@ import SwiftUI
 struct DottedSeperator: View {
     
     @State var width: Int
-    @State var color: Color
+    @State var color: Color = .black
     
     var body: some View {
         Line()
