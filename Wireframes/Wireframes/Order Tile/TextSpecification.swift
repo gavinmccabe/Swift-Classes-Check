@@ -13,34 +13,36 @@ struct TextSpecification: View {
     @State var time: String
     @State var address: String
     var body: some View {
-        VStack(){
-            Spacer()
-                .frame(height: 20)
-            HStack(){
-                Image(systemName: "square.fill")
-                    .foregroundColor(Color(#colorLiteral(red: 0.7607843137, green: 0.7764705882, blue: 0.831372549, alpha: 1)))
-                Text("\(numItems) Items")
-                    .foregroundColor(Color(#colorLiteral(red: 0.7607843137, green: 0.7764705882, blue: 0.831372549, alpha: 1)))
+        GeometryReader {geo in
+            VStack(){
                 Spacer()
-            }
-            Spacer()
-            HStack(){
-                Image(systemName: "calendar")
-                    .foregroundColor(Color(#colorLiteral(red: 0.7607843137, green: 0.7764705882, blue: 0.831372549, alpha: 1)))
-                Text("\(date) / \(time)")
-                    .foregroundColor(Color(#colorLiteral(red: 0.7607843137, green: 0.7764705882, blue: 0.831372549, alpha: 1)))
+                    .frame(height: 20)
+                HStack(){
+                    Image(systemName: "square.fill")
+                        .foregroundColor(Color(#colorLiteral(red: 0.7607843137, green: 0.7764705882, blue: 0.831372549, alpha: 1)))
+                    Text("\(numItems) Items")
+                        .foregroundColor(Color(#colorLiteral(red: 0.7607843137, green: 0.7764705882, blue: 0.831372549, alpha: 1)))
+                    Spacer()
+                }
                 Spacer()
-            }
-            Spacer()
-            HStack(){
-                Image(systemName: "mappin")
-                    .foregroundColor(Color(#colorLiteral(red: 0.7607843137, green: 0.7764705882, blue: 0.831372549, alpha: 1)))
-                Text("\(address)")
-                    .foregroundColor(Color(#colorLiteral(red: 0.7607843137, green: 0.7764705882, blue: 0.831372549, alpha: 1)))
+                HStack(){
+                    Image(systemName: "calendar")
+                        .foregroundColor(Color(#colorLiteral(red: 0.7607843137, green: 0.7764705882, blue: 0.831372549, alpha: 1)))
+                    Text("\(date) / \(time)")
+                        .foregroundColor(Color(#colorLiteral(red: 0.7607843137, green: 0.7764705882, blue: 0.831372549, alpha: 1)))
+                    Spacer()
+                }
                 Spacer()
-            }
-            Spacer()
+                HStack(){
+                    Image(systemName: "mappin")
+                        .foregroundColor(Color(#colorLiteral(red: 0.7607843137, green: 0.7764705882, blue: 0.831372549, alpha: 1)))
+                    Text("\(address)")
+                        .foregroundColor(Color(#colorLiteral(red: 0.7607843137, green: 0.7764705882, blue: 0.831372549, alpha: 1)))
+                    Spacer()
+                }
+                Spacer()
     
+            }
         }
     }
 }

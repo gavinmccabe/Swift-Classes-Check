@@ -31,6 +31,6 @@ struct Line: Shape {
 
 struct DottedSeperator_Previews: PreviewProvider {
     static var previews: some View {
-        DottedSeperator(width: 100, color: Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)))
+        DottedSeperator(width: 100)
     }
 }

@@ -15,7 +15,7 @@
 		86FB492625871BA8000E75E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB48F625871BA7000E75E3 /* ContentView.swift */; };
 		86FB492825871BA8000E75E3 /* OrderTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB48F925871BA7000E75E3 /* OrderTile.swift */; };
 		86FB492925871BA8000E75E3 /* TextSpecification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB48FA25871BA7000E75E3 /* TextSpecification.swift */; };
-		86FB492A25871BA8000E75E3 /* StatusTile2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB48FB25871BA7000E75E3 /* StatusTile2.swift */; };
+		86FB492A25871BA8000E75E3 /* OrderStatusTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB48FB25871BA7000E75E3 /* OrderStatusTile.swift */; };
 		86FB492C25871BA8000E75E3 /* WalletButtonUntoggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB490025871BA7000E75E3 /* WalletButtonUntoggled.swift */; };
 		86FB492D25871BA8000E75E3 /* WalletButtonToggled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB490125871BA7000E75E3 /* WalletButtonToggled.swift */; };
 		86FB492E25871BA8000E75E3 /* WalletButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FB490225871BA7000E75E3 /* WalletButton.swift */; };
@@ -58,7 +58,7 @@
 		86FB48F625871BA7000E75E3 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86FB48F925871BA7000E75E3 /* OrderTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderTile.swift; sourceTree = "<group>"; };
 		86FB48FA25871BA7000E75E3 /* TextSpecification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextSpecification.swift; sourceTree = "<group>"; };
-		86FB48FB25871BA7000E75E3 /* StatusTile2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusTile2.swift; sourceTree = "<group>"; };
+		86FB48FB25871BA7000E75E3 /* OrderStatusTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderStatusTile.swift; sourceTree = "<group>"; };
 		86FB490025871BA7000E75E3 /* WalletButtonUntoggled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletButtonUntoggled.swift; sourceTree = "<group>"; };
 		86FB490125871BA7000E75E3 /* WalletButtonToggled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletButtonToggled.swift; sourceTree = "<group>"; };
 		86FB490225871BA7000E75E3 /* WalletButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletButton.swift; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 			children = (
 				86FB48F925871BA7000E75E3 /* OrderTile.swift */,
 				86FB48FA25871BA7000E75E3 /* TextSpecification.swift */,
-				86FB48FB25871BA7000E75E3 /* StatusTile2.swift */,
+				86FB48FB25871BA7000E75E3 /* OrderStatusTile.swift */,
 			);
 			path = "Order Tile";
 			sourceTree = "<group>";
@@ -365,7 +365,7 @@
 				86FB493C25871BA8000E75E3 /* StatusTile.swift in Sources */,
 				86FB493A25871BA8000E75E3 /* PromotionBadge.swift in Sources */,
 				86FB494125871BA8000E75E3 /* HangerRating.swift in Sources */,
-				86FB492A25871BA8000E75E3 /* StatusTile2.swift in Sources */,
+				86FB492A25871BA8000E75E3 /* OrderStatusTile.swift in Sources */,
 				86FB492D25871BA8000E75E3 /* WalletButtonToggled.swift in Sources */,
 				86FB493F25871BA8000E75E3 /* Hanger_Selected.swift in Sources */,
 				86FB493D25871BA8000E75E3 /* RecentOrderTile.swift in Sources */,
